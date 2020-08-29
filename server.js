@@ -1,8 +1,7 @@
 const express = require("express");
 const app = express();
 
-const playbooksAPI = require("./routes/playbooks.route.js");
-app.use("/playbooks", playbooksAPI);
+app.use("/api", require("./routes/api"));
 
 app.get("/testurl", (req, res) => {
   res.send("Test url reached!");
