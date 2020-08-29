@@ -6,15 +6,26 @@ const server = require("../server")
 chai.use(chaiHttp);
 
 describe("Playbooks route", () => {
-  it("should list ALL playbooks on /playbooks GET", () => {
-    chai
+  describe("should list ALL playbooks on /playbooks GET", () => {
+    it("request comes back in proper format", () => {
+      chai
       .request(server)
       .get('/api/playbooks')
       .end((err, res) => {
-        expect(res).to.have.status(200)
-        done();
-      })
+        expect(res).to.have.status(200);
+        expect(res).to.be.a.json;
+      });
+    });
+    it("request data is accurate", () => {
+      chai
+      .request(server)
+      .get('/api/playbooks')
+      .end((err, res) => {
+        expect(res.body.count).to.equal(res.body.playbooks.length);
+      });
+    });
   });
-  it("should list a SINGLE playbook on /playbooks/:id")
-  it("should list a SINGLE playbook on /playbooks/:name");
+
+  describe("should list a SINGLE playbook on /playbooks/:id");
+  describe("should list a SINGLE playbook on /playbooks/:name");
 });
