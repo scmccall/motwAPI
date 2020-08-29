@@ -1,0 +1,53 @@
+{
+  "count": 12,
+  "playbooks": [
+    {
+      "name": "The Chosen",
+      "url": "/testurl"
+    },
+    {
+      "name": "The Crooked",
+      "url": "/testurl"
+    },
+    {
+      "name": "The Divine",
+      "url": "/testurl"
+    },
+    {
+      "name": "The Expert",
+      "url": "/testurl"
+    },
+    {
+      "name": "The Flake",
+      "url": "/testurl"
+    },
+    {
+      "name": "The Initiate",
+      "url": "/testurl"
+    },
+    {
+      "name": "The Monstrous",
+      "url": "/testurl"
+    },
+    {
+      "name": "The Mundane",
+      "url": "/testurl"
+    },
+    {
+      "name": "The Professional",
+      "url": "/testurl"
+    },
+    {
+      "name": "The Spell-Slinger",
+      "url": "/testurl"
+    },
+    {
+      "name": "The Spooky",
+      "url": "/testurl"
+    },
+    {
+      "name": "The Wronged",
+      "url": "/testurl"
+    }
+  ]
+}
