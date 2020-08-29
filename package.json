@@ -4,7 +4,7 @@
   "description": "A Monster of the Week read-only API.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "dev": "node server.js"
   },
   "author": "Sam McCall <smccall@smccall.com> (http://smccall.com)",
