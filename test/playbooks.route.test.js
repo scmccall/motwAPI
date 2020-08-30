@@ -33,11 +33,12 @@ describe("Playbooks route", () => {
   });
   describe("should list a SINGLE playbook on /playbooks/:index", () => {
     it("shared playbook data has correct data structure", () => {
-      const playbooks = require("../data/playbooks.json").playbooks;
+      const playbooks = require("../data/playbooks-list.json").playbooks;
       playbooks.forEach(playbook => {
         chai
         .request(server)
-        .get(`api/v1/playbooks/${playbook.index}`)
+        // .get(`/api/v1/playbooks/${playbook.index}`)
+        .get(`/api/v1/playbooks/chosen`)
         .end((err, res) => {
           // Returns successfully
           expect(res).to.have.status(200);
@@ -50,7 +51,7 @@ describe("Playbooks route", () => {
           expect(res.body).to.have.property("name");
           expect(res.body.name).to.be.a("string");
           expect(res.body).to.have.property("luck_special");
-          expect(res.body.luck_special).to.be("string");
+          expect(res.body.luck_special).to.be.a("string");
 
           // Moves
           expect(res.body).to.have.property("moves");
