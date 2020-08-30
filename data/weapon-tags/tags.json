@@ -1,0 +1,127 @@
+[
+  {
+    "index": "automatic",
+    "name": "Automatic",
+    "description": "This weapon can use automatic fire, which gives you either +area or +1 harm. Use of automatic fire will hasten the need to reload."
+  },
+  {
+    "index": "area",
+    "name": "Area",
+    "description": "This weapon can hit multiple foes. You may divide the harm you inflict among multiple targets."
+  },
+  {
+    "index": "balanced",
+    "name": "Balanced",
+    "description": "This weapon is easy to wield and hold on to."
+  },
+  {
+    "index": "close",
+    "name": "Close",
+    "description": "This weapon is effective at fairly close quarters – outside arms' reach, but not too far."
+  },
+  {
+    "index": "far",
+    "name": "Far",
+    "description": "This weapon is effective at long range."
+  },
+  {
+    "index": "fire",
+    "name": "Fire",
+    "description": "The weapon sets things on fire."
+  },
+  {
+    "index": "hand",
+    "name": "Hand",
+    "description": "This weapon is effective at a hand to hand combat range – within arms' reach."
+  },
+  {
+    "index": "healing",
+    "name": "Healing",
+    "description": "This weapon transfers life energy: the wielder is healed for as many points of harm as were inflicted. E.g. if you inflict 2-harm, then you get healed for 2-harm of your injuries."
+  },
+  {
+    "index": "heavy",
+    "name": "Heavy",
+    "description": "This weapon is heavy and difficult to wield."
+  },
+  {
+    "index": "holy",
+    "name": "Holy",
+    "description": "This weapon has been blessed. This will be more effective against monsters with a weakness to holy items."
+  },
+  {
+    "index": "ignore-armour",
+    "name": "Ignore-Armour",
+    "description": "This weapon ignores protective armour. Armour has no effect on the harm it causes. If armour has the magic tag, then a weapon needs both ignore-armour and magic to bypass the armour."
+  },
+  {
+    "index": "innocuous",
+    "name": "Innocuous",
+    "description": "This weapon doesn't draw suspicion."
+  },
+  {
+    "index": "intimate",
+    "name": "Intimate",
+    "description": "This weapon is effective at the closest of quarters – within the embrace of your foe."
+  },
+  {
+    "index": "loud",
+    "name": "Loud",
+    "description": "This weapon is loud enough that it draws attention."
+  },
+  {
+    "index": "magic",
+    "name": "Magic",
+    "description": "This weapon is enchanted, and so can affect certain creatures that are proof against normal weapons."
+  },
+  {
+    "index": "many",
+    "name": "Many",
+    "description": "These weapons are small enough you can carry a large number of them."
+  },
+  {
+    "index": "messy",
+    "name": "Messy",
+    "description": "This weapon spreads a lot of blood and gore around."
+  },
+  {
+    "index": "quick",
+    "name": "Quick",
+    "description": "This weapon is quick to prepare and attack with."
+  },
+  {
+    "index": "reload",
+    "name": "Reload",
+    "description": "This weapon has limited ammunition, and may run out at a bad time and need to be reloaded."
+  },
+  {
+    "index": "slow",
+    "name": "Slow",
+    "description": "This weapon is slow to prepare and attack with."
+  },
+  {
+    "index": "small",
+    "name": "Small",
+    "description": "This weapon is tiny and easy to conceal."
+  },
+  {
+    "index": "unreliable",
+    "name": "Unreliable",
+    "description": "This weapon needs regular cleaning and maintenance, otherwise it just isn't gonna work."
+  },
+  {
+    "index": "useful",
+    "name": "Useful",
+    "description": "This weapon has other uses aside from violence."
+  },
+  {
+    "index": "valuable",
+    "name": "Valuable",
+    "description": "This weapon is antique, or made of valuable materials."
+  },
+  {
+    "index": "volatile",
+    "name": "Volatile",
+    "description": "This weapon is dangerous and unstable."
+  }
+]

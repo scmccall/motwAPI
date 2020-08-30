@@ -1,0 +1,130 @@
+{
+  "count": 25,
+  "tags": [
+    {
+      "index": "automatic",
+      "name": "Automatic",
+      "url": "/automatic"
+    },
+    {
+      "index": "area",
+      "name": "Area",
+      "url": "/area"
+    },
+    {
+      "index": "balanced",
+      "name": "Balanced",
+      "url": "/balanced"
+    },
+    {
+      "index": "close",
+      "name": "Close",
+      "url": "/close"
+    },
+    {
+      "index": "far",
+      "name": "Far",
+      "url": "/far"
+    },
+    {
+      "index": "fire",
+      "name": "Fire",
+      "url": "/fire"
+    },
+    {
+      "index": "hand",
+      "name": "Hand",
+      "url": "/hand"
+    },
+    {
+      "index": "healing",
+      "name": "Healing",
+      "url": "/healing"
+    },
+    {
+      "index": "heavy",
+      "name": "Heavy",
+      "url": "/heavy"
+    },
+    {
+      "index": "holy",
+      "name": "Holy",
+      "url": "/holy"
+    },
+    {
+      "index": "ignore-armour",
+      "name": "Ignore-Armour",
+      "url": "/ignore-armour"
+    },
+    {
+      "index": "innocuous",
+      "name": "Innocuous",
+      "url": "/innocuous"
+    },
+    {
+      "index": "intimate",
+      "name": "Intimate",
+      "url": "/intimate"
+    },
+    {
+      "index": "loud",
+      "name": "Loud",
+      "url": "/loud"
+    },
+    {
+      "index": "magic",
+      "name": "Magic",
+      "url": "/magic"
+    },
+    {
+      "index": "many",
+      "name": "Many",
+      "url": "/many"
+    },
+    {
+      "index": "messy",
+      "name": "Messy",
+      "url": "/messy"
+    },
+    {
+      "index": "quick",
+      "name": "Quick",
+      "url": "/quick"
+    },
+    {
+      "index": "reload",
+      "name": "Reload",
+      "url": "/reload"
+    },
+    {
+      "index": "slow",
+      "name": "Slow",
+      "url": "/slow"
+    },
+    {
+      "index": "small",
+      "name": "Small",
+      "url": "/small"
+    },
+    {
+      "index": "unreliable",
+      "name": "Unreliable",
+      "url": "/unreliable"
+    },
+    {
+      "index": "useful",
+      "name": "Useful",
+      "url": "/useful"
+    },
+    {
+      "index": "valuable",
+      "name": "Valuable",
+      "url": "/valuable"
+    },
+    {
+      "index": "volatile",
+      "name": "Volatile",
+      "url": "/volatile"
+    }
+  ]
+}
