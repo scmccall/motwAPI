@@ -2,64 +2,64 @@
   "count": 12,
   "playbooks": [
     {
-      "identifier" : "chosen",
+      "index" : "chosen",
       "name": "The Chosen",
-      "url": "/testurl"
+      "url": "/chosen"
     },
     {
-      "identifier" : "crooked",
+      "index" : "crooked",
       "name": "The Crooked",
-      "url": "/testurl"
+      "url": "/crooked"
     },
     {
-      "identifier" : "divine",
+      "index" : "divine",
       "name": "The Divine",
-      "url": "/testurl"
+      "url": "/divine"
     },
     {
-      "identifier" : "expert",
+      "index" : "expert",
       "name": "The Expert",
-      "url": "/testurl"
+      "url": "/expert"
     },
     {
-      "identifier" : "flake",
+      "index" : "flake",
       "name": "The Flake",
-      "url": "/testurl"
+      "url": "/flake"
     },
     {
-      "identifier" : "initiate",
+      "index" : "initiate",
       "name": "The Initiate",
-      "url": "/testurl"
+      "url": "/initiate"
     },
     {
-      "identifier" : "monstrous",
+      "index" : "monstrous",
       "name": "The Monstrous",
-      "url": "/testurl"
+      "url": "/monstrous"
     },
     {
-      "identifier" : "mundane",
+      "index" : "mundane",
       "name": "The Mundane",
-      "url": "/testurl"
+      "url": "/mundane"
     },
     {
-      "identifier" : "professional",
+      "index" : "professional",
       "name": "The Professional",
-      "url": "/testurl"
+      "url": "/professional"
     },
     {
-      "identifier" : "spell-slinger",
+      "index" : "spell-slinger",
       "name": "The Spell-Slinger",
-      "url": "/testurl"
+      "url": "/spell-slinger"
     },
     {
-      "identifier" : "spooky",
+      "index" : "spooky",
       "name": "The Spooky",
-      "url": "/testurl"
+      "url": "/spooky"
     },
     {
-      "identifier" : "wronged",
+      "index" : "wronged",
       "name": "The Wronged",
-      "url": "/testurl"
+      "url": "/wronged"
     }
   ]
 }
