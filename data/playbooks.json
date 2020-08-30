@@ -2,50 +2,62 @@
   "count": 12,
   "playbooks": [
     {
+      "identifier" : "chosen",
       "name": "The Chosen",
       "url": "/testurl"
     },
     {
+      "identifier" : "crooked",
       "name": "The Crooked",
       "url": "/testurl"
     },
     {
+      "identifier" : "divine",
       "name": "The Divine",
       "url": "/testurl"
     },
     {
+      "identifier" : "expert",
       "name": "The Expert",
       "url": "/testurl"
     },
     {
+      "identifier" : "flake",
       "name": "The Flake",
       "url": "/testurl"
     },
     {
+      "identifier" : "initiate",
       "name": "The Initiate",
       "url": "/testurl"
     },
     {
+      "identifier" : "monstrous",
       "name": "The Monstrous",
       "url": "/testurl"
     },
     {
+      "identifier" : "mundane",
       "name": "The Mundane",
       "url": "/testurl"
     },
     {
+      "identifier" : "professional",
       "name": "The Professional",
       "url": "/testurl"
     },
     {
+      "identifier" : "spell-slinger",
       "name": "The Spell-Slinger",
       "url": "/testurl"
     },
     {
+      "identifier" : "spooky",
       "name": "The Spooky",
       "url": "/testurl"
     },
     {
+      "identifier" : "wronged",
       "name": "The Wronged",
       "url": "/testurl"
     }
