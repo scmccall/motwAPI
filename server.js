@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 // Add routes
-app.use("/api", require("./routes/api"));
+app.use("/api/v1", require("./routes/api"));
 
 app.get("/testurl", (req, res) => {
   res.send("Test url reached!");

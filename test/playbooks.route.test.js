@@ -9,7 +9,7 @@ describe("Playbooks route", () => {
   it("should list ALL playbooks on /playbooks GET", () => {
     chai
     .request(server)
-    .get('/api/playbooks')
+    .get('/api/v1/playbooks')
     .end((err, res) => {
       // Returns in proper format
       expect(res).to.have.status(200);

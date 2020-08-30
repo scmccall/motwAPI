@@ -9,7 +9,7 @@ describe("Weapon tags route", () => {
   it("should list ALL weapon tags on /weapon-tags GET", () => {
     chai
     .request(server)
-    .get('/api/weapon-tags')
+    .get('/api/v1/weapon-tags')
     .end((err, res) => {
       // Returns successfully
       expect(res).to.have.status(200);
@@ -37,7 +37,7 @@ describe("Weapon tags route", () => {
       tags.forEach(tag => {
         chai
         .request(server)
-        .get(`/api/weapon-tags/${tag.index}`)
+        .get(`/api/v1/weapon-tags/${tag.index}`)
         .end((err, res) => {
           // Returns successfully
           expect(res).to.have.status(200);
