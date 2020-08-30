@@ -1,11 +1,11 @@
 const express = require("express");
 const app = express();
 
+// Add routes
 app.use("/api", require("./routes/api"));
 
 app.get("/testurl", (req, res) => {
   res.send("Test url reached!");
-  // res.send(require("./playbooks.json"));
 });
 
 const port = process.env.PORT || 5000;
