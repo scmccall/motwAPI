@@ -1,0 +1,108 @@
+{
+  "index": "expert",
+  "name": "The Expert",
+  "luck_special": "When you spend a point of Luck, you discover something happening now is related to something you were involved in years ago.",
+  "moves": {
+    "required_move_slots": 0,
+    "required_moves": [],
+    "optional_move_slots": 2,
+    "optional_moves": [
+      {
+        "name": "I’ve Read About This Sort Of Thing",
+        "description": "Roll +Sharp instead of +Cool when you act under pressure."
+      },
+      {
+        "name": "Often Right",
+        "description": "When a hunter comes to you for advice about a problem, give them your honest opinion and advice. If they take your advice, they get +1 ongoing while following your advice, and you mark experience."
+      },
+      {
+        "name": "Preparedness",
+        "description": "When you need something unusual or rare, roll +Sharp. On a 10+, you have it here right now. On a 7-9 you have it, but not here: it will take some time to get it. On a miss, you know where it is, but it’s somewhere real bad."
+      },
+      {
+        "name": "It Wasn’t As Bad As It Looked",
+        "description": "Once per mystery, you may attempt to keep going despite your injuries. Roll +Cool. On a 10+, heal 2 harm and stabilize your wounds. On a 7-9 you may either stabilize or heal 1 harm. On a miss, it was worse than it looked: the Keeper may inflict a harm move on you, or make your wounds unstable."
+      },
+      {
+        "name": "Precise Strike",
+        "description": "When you inflict harm on a monster, you can aim for a weak spot. Roll +Tough. On a 10+ you inflict +2 harm. On a 7-9 you inflict +1 harm. On a miss, you leave yourself open to the monster."
+      },
+      {
+        "name": "The Woman (or Man) With The Plan",
+        "description": "At the beginning of each mystery, roll +Sharp. On a 10+ hold 2, on a 7-9 hold 1. Spend the hold to be where you need to be, prepared and ready. On a miss, the Keeper holds 1 they can spend to put you in the worst place, unprepared and unready."
+      },
+      {
+        "name": "Dark Past",
+        "description": "If you trawl through your memories for something relevant to the case at hand, roll +Weird. On a 10+ ask the Keeper two questions from the list below. On a 7-9 ask one. On a miss, you can ask a question anyway but that will mean you were personally complicit in creating the situation you are now dealing with. The questions are: When I dealt with this creature (or one of its kind), what did I learn? What black magic do I know that could help here? Do I know anyone who might be behind this? Who do I know who can help us right now?"
+      }
+    ]
+  },
+  "ratings": [
+    {
+      "charm": -1,
+      "cool": 1,
+      "sharp": 2,
+      "tough": 1,
+      "weird": 0
+    },
+    {
+      "charm": 0,
+      "cool": 1,
+      "sharp": 2,
+      "tough": -1,
+      "weird": 1
+    },
+    {
+      "charm": 1,
+      "cool": -1,
+      "sharp": 2,
+      "tough": 1,
+      "weird": 0
+    },
+    {
+      "charm": -1,
+      "cool": 1,
+      "sharp": 2,
+      "tough": 0,
+      "weird": 1
+    },
+    {
+      "charm": -1,
+      "cool": 0,
+      "sharp": 2,
+      "tough": -1,
+      "weird": 2
+    }
+  ],
+  "history": [
+    "They are your student, apprentice, ward, or child. Between you, decide which.",
+    "They came to you for advice, and your advice got them out of trouble. Ask them what the trouble was.",
+    "They know about some of your dark secrets, but they’ve agreed to keep quiet about them. Tell them what they know.",
+    "A distant relation. Tell them exactly what.",
+    "You were previously both members of an eldritch group, now disbanded. Ask them why they left, then tell them why you did.",
+    "They once helped you get a singular item that is now part of your haven. Tell them what it was.",
+    "You were taught by the same master. Ask them how it ended.",
+    "You saved their life in a tight spot. Tell them what happened."
+  ],
+  "improvements": [
+    "Get +1 Sharp, max +3.",
+    "Get +1 Charm, max +3.",
+    "Get +1 Cool, max +3.",
+    "Get +1 Weird, max +3.",
+    "Take another Expert move.",
+    "Take another Expert move.",
+    "Add an option to your haven.",
+    "Add an option to your haven.",
+    "Take a move from another playbook.",
+    "Take a move from another playbook."
+  ],
+  "advanced_improvements": [
+    "Get +1 to any rating, max +3.",
+    "Get back one used Luck point.",
+    "Change this hunter to a new type.",
+    "Create a second hunter to play as well as this one.",
+    "Mark two of the basic moves as advanced.",
+    "Mark another two of the basic moves as advanced.",
+    "Retire this hunter to safety."
+  ]
+}

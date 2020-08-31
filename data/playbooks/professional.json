@@ -1,0 +1,114 @@
+{
+  "index": "professional",
+  "name": "The Professional",
+  "luck_special": "When you spend a point of Luck, your next mission from the Agency comes with lots of Red Tape. Lots.",
+  "moves": {
+    "required_move_slots": 1,
+    "required_moves": [
+      {
+        "name": "Professional",
+        "description": "When you deal with the Agency, requesting help or gear, or making excuses for a failure, roll +Sharp. On a 10+, you’re good— your request for gear or personnel is okayed, or your slip-up goes unnoticed. On a 7-9, things aren’t so great. You might get chewed out by your superiors and there’ll be fallout, but you get what you need for the job. On a miss, you screwed up: you might be suspended or under investigation, or just in the doghouse. You certainly aren’t going to get any help until you sort it all out."
+      }
+    ],
+    "optional_move_slots": 4,
+    "optional_moves": [
+      {
+        "name": "Bottle It Up",
+        "description": "If you want, you can take up to +3 bonus when you act under pressure. For each +1 you use, the Keeper holds 1. That hold can be spent later— one for one— to give you -1 on any move except act under pressure."
+      },
+      {
+        "name": "Unfazeable",
+        "description": "Take +1 Cool (max +3)."
+      },
+      {
+        "name": "Battlefield Awareness",
+        "description": "You always know what’s happening around you, and what to watch out for. Take +1 armour (max 2-armour) on top of whatever you get from your gear."
+      },
+      {
+        "name": "Leave No One Behind",
+        "description": "In combat, when you help someone escape, roll +Sharp. On a 10+ you get them out clean. On a 7-9, you can either get them out or suffer no harm, you choose. On a miss, you fail to get them out and you’ve attracted hostile attention."
+      },
+      {
+        "name": "Tactical Genius",
+        "description": "When you read a bad situation, you may roll +Cool instead of +Sharp."
+      },
+      {
+        "name": "Medic",
+        "description": "You have a full first aid kit, and the training to heal people. When you do first aid, roll +Cool. On a 10+ the patient is stabilized and healed of 2 harm. On a 7-9 choose one: heal 2 harm or stabilize the injury. On a miss, you cause an extra 1 harm. This move takes the place of regular first aid."
+      },
+      {
+        "name": "Mobility",
+        "description": "You have a truck, van, or car built for monster hunting. Choose two good things and one bad thing about it. Good things: roomy; surveillance gear; fast; stealthy; intimidating; classic; medical kit; sleep-ing space; toolkit; concealed weapons; anonymous; armoured (+1 armour inside); tough; monster cage. Bad things: loud; obvious; temperamental; beat-en-up; gas-guzzler; uncomfortable; slow; old."
+      }
+    ]
+  },
+  "ratings": [
+    {
+      "charm": 0,
+      "cool": 2,
+      "sharp": -1,
+      "tough": 2,
+      "weird": -1
+    },
+    {
+      "charm": -1,
+      "cool": 2,
+      "sharp": 1,
+      "tough": 1,
+      "weird": 0
+    },
+    {
+      "charm": 1,
+      "cool": 2,
+      "sharp": 1,
+      "tough": -1,
+      "weird": 0
+    },
+    {
+      "charm": -1,
+      "cool": 2,
+      "sharp": 1,
+      "tough": 0,
+      "weird": 1
+    },
+    {
+      "charm": 0,
+      "cool": 2,
+      "sharp": 2,
+      "tough": -1,
+      "weird": -1
+    }
+  ],
+  "history": [
+    "Your relationship with them has romantic potential. So far it hasn’t gone further.",
+    "They’re on the Agency’s watch list, and you’ve been keeping an eye on them.",
+    "You are related. Tell them how close.",
+    "You met on a mission and worked together unofficially. And successfully.",
+    "They’ve worked with the Agency before, and they’re well regarded.",
+    "You were friends back in training, before the Agency recruited you. This could be military, law enforcement, or some weirder school: decide the details between you.",
+    "They pulled you (and maybe your team) out of a terrible FUBARed mission.",
+    "You got sent to “deal with them” as a hazard to the Agency’s policies one time. Tell them how you resolved this."
+  ],
+  "improvements": [
+    "Get +1 Cool, max +3.",
+    "Get +1 Charm, max +3.",
+    "Get +1 Sharp, max +3.",
+    "Get +1 Tough, max +3.",
+    "Take another Professional move.",
+    "Take another Professional move.",
+    "Add a new resource tag for your Agency or change a red tape tag.",
+    "Get command of an Agency team of monster hunters.",
+    "Take a move from another playbook.",
+    "Take a move from another playbook."
+  ],
+  "advanced_improvements": [
+    "Get +1 to any rating, max +3.",
+    "Change this hunter to a new type.",
+    "Create a second hunter to play as well as this one.",
+    "Mark two of the basic moves as advanced.",
+    "Mark another two of the basic moves as advanced.",
+    "Retire this hunter to safety.",
+    "Get some or all of the other players’ hunters hired by your agency. They get the deal with the agency move, as well as salary and benefits.",
+    "Get back one used Luck point."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "index": "monstrous",
+  "name": "The Monstrous",
+  "luck_special": "When you spend a point of Luck, your monster side gains power: your Curse may become stronger, or another Breed disadvantage may manifest.",
+  "moves": {
+    "required_move_slots": 0,
+    "required_moves": [],
+    "optional_move_slots": 2,
+    "optional_moves": [
+      {
+        "name": "Immortal",
+        "description": "You do not age or sicken, and whenever you suffer harm you suffer 1-harm less."
+      },
+      {
+        "name": "Unnatural Appeal",
+        "description": "Roll +Weird instead of +Charm when you manipulate someone."
+      },
+      {
+        "name": "Unholy Strength",
+        "description": "Roll +Weird instead of +Tough when you kick some ass."
+      },
+      {
+        "name": "Incorporeal",
+        "description": "You may move freely through solid objects (but not people)."
+      },
+      {
+        "name": "Preternatural Speed",
+        "description": "You go much faster than normal people. When you chase, flee, or run take +1 ongoing."
+      },
+      {
+        "name": "Claws of the Beast",
+        "description": "All your natural attacks get +1 harm."
+      },
+      {
+        "name": "Mental Dominion",
+        "description": "When you gaze into a normal human’s eyes and exert your will over them, roll +Charm. On a 10+, hold 3. On a 7-9, hold 1. You may spend your hold to give them an order. Regular people will follow your order, whatever it is. Hunters can choose whether they do it or not. If they do, they mark experience."
+      },
+      {
+        "name": "Unquenchable Vitality",
+        "description": "When you have taken harm, you can heal yourself. Roll +Cool. On a 10+, heal 2-harm and stabilise your injuries. On a 7-9, heal 1-harm and stabilise your injuries. On a miss, your injuries worsen."
+      },
+      {
+        "name": "Dark Negotiator",
+        "description": "You can use the manipulate someone move on monsters as well as people, if they can reason and talk."
+      },
+      {
+        "name": "Flight",
+        "description": "You can fly."
+      },
+      {
+        "name": "Shapeshifter",
+        "description": "You may change your form (usually into an animal). Decide if you have just one alter-nate form or several, and detail them. You gain +1 to investigate a mystery when using an alternate form’s superior senses (e.g. smell for a wolf, sight for an eagle)."
+      },
+      {
+        "name": "Something Borrowed",
+        "description": "Take a move from a hunter playbook that is not currently in play."
+      }
+    ]
+  },
+  "ratings": [
+    {
+      "charm": -1,
+      "cool": -1,
+      "sharp": 0,
+      "tough": 2,
+      "weird": 3
+    },
+    {
+      "charm": -1,
+      "cool": 1,
+      "sharp": 1,
+      "tough": 0,
+      "weird": 3
+    },
+    {
+      "charm": 2,
+      "cool": 0,
+      "sharp": -1,
+      "tough": -1,
+      "weird": 3
+    },
+    {
+      "charm": -2,
+      "cool": 2,
+      "sharp": 0,
+      "tough": 0,
+      "weird": 3
+    },
+    {
+      "charm": 0,
+      "cool": -1,
+      "sharp": 2,
+      "tough": -1,
+      "weird": 3
+    }
+  ],
+  "history": [
+    "You lost control one time, and almost killed them. Ask them how they stopped you.",
+    "They tried to slay you, but you proved you’re on the side of good. Ask them what convinced them.",
+    "You are romantically obsessed with them. Ask them if they know, and if they reciprocate.",
+    "Close relations, or a distant descendant. Tell them which.",
+    "You saved them from another of your kind, and prevented reprisals against that individual creature (maybe it’s another good one, or maybe it has a hold over you).",
+    "They are tied to your curse or origin. Tell them how.",
+    "You fought together against the odds, and prevailed.",
+    "They saved you from another hunter who was pre-pared to kill you. Ask them what happened."
+  ],
+  "improvements": [
+    "Get +1 Charm, max +3.",
+    "Get +1 Cool, max +3.",
+    "Get +1 Sharp, max +3.",
+    "Get +1 Tough, max +3.",
+    "Take another Monstrous move.",
+    "Take another Monstrous move.",
+    "Gain a haven, like the Expert has, with two options.",
+    "Take a natural attacks pick.",
+    "Take a move from another playbook.",
+    "Take a move from another playbook."
+  ],
+  "advanced_improvements": [
+    "Get +1 to any rating, max +3.",
+    "Change this hunter to a new type.",
+    "Create a second hunter to play as well as this one.",
+    "Mark two of the basic moves as advanced.",
+    "Mark another two of the basic moves as advanced.",
+    "Retire this hunter to safety.",
+    "Free yourself from the curse of your kind. Your curse no longer applies, but you lose 1 Weird.",
+    "You turn evil (again). Retire this character, they become one of the Keeper’s threats.",
+    "Get back one used Luck point."
+  ]
+}

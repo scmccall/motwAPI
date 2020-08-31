@@ -1,0 +1,109 @@
+{
+  "index": "divine",
+  "name": "The Divine",
+  "luck_special": "When you spend a point of Luck, you get word your Mission requires something difficult that must be done. By you. Urgently.",
+  "moves": {
+    "required_move_slots": 0,
+    "required_moves": [],
+    "optional_move_slots": 3,
+    "optional_moves": [
+      {
+        "name": "Boss from Beyond",
+        "description": "At the beginning of each mystery, roll +Weird. On a 10+, your Superiors ask you to do something simple. On a 7-9, they ask you to do something complicated or difficult. In either case, you get to ask them one of the questions from the investigate a mystery move right now. On a miss, you are required to do something terrible. If you do not accomplish what they’ve ordered, you cannot use this move again until you have made up for your failure."
+      },
+      {
+        "name": "Angel Wings",
+        "description": "You can go instantly to anywhere you’ve visited before, or to a person you know well. When you carry one or two people with you, roll +Weird. On a 10+ you all go where you wanted. On a 7-9, you don’t quite manage it. Either you are all separated, or you all appear in the wrong place."
+      },
+      {
+        "name": "What I Need, When I Need It",
+        "description": "You may store any small object you own, putting it into a magical space nobody can get to. You may retrieve anything you stored at any time; it appears in your hand."
+      },
+      {
+        "name": "Smite",
+        "description": "Your body and divine weapon always count as a weakness against the monsters you fight. Your unarmed attacks are 2-harm intimate hand messy."
+      },
+      {
+        "name": "Soothe",
+        "description": "When you talk to someone for a few seconds in a quiet voice, you can calm them down, blocking any panic, anger, or other negative emotions they have. This works even if the thing that freaked them out is still present, as long as your voice can be heard."
+      },
+      {
+        "name": "Lay On Hands",
+        "description": "Your touch can heal injury and disease. When you lay your hands on someone hurt, roll +Cool. On a 10+, heal 2 harm or an illness, plus they’re stabilized. On a 7-9, you can heal the harm or illness as on a 10+, but you take it into your-self. On a miss, your aura causes them extra harm."
+      },
+      {
+        "name": "Cast Out Evil",
+        "description": "You may banish an unnatural creature from your presence. Roll +Tough. On a 10+ it is banished. On a 7-9 it takes a little while for the banishing to take effect—the creature has time to make one or two actions. Either way, the banished creature is unharmed, and you have no control over where it goes. This move may be used on unnatural hunters (e.g. the Monstrous). On a miss, something is keeping it here. That’s bad."
+      }
+    ]
+  },
+  "ratings": [
+    {
+      "charm": 1,
+      "cool": 1,
+      "sharp": -1,
+      "tough": 2,
+      "weird": 0
+    },
+    {
+      "charm": -1,
+      "cool": 2,
+      "sharp": -1,
+      "tough": 2,
+      "weird": 0
+    },
+    {
+      "charm": -1,
+      "cool": 0,
+      "sharp": 1,
+      "tough": 2,
+      "weird": 1
+    },
+    {
+      "charm": 1,
+      "cool": 1,
+      "sharp": 0,
+      "tough": 2,
+      "weird": -1
+    },
+    {
+      "charm": -1,
+      "cool": 1,
+      "sharp": 0,
+      "tough": 2,
+      "weird": 1
+    }
+  ],
+  "history": [
+    "If you are protecting another hunter as your mission, tell them this: You have a crucial role in what is to come. I am here to guide and defend you.",
+    "They should not be involved in this situation: the prophecies didn’t mention them at all. This gets your attention but you don’t know what it means yet.",
+    "They are, at heart, a good and righteous person. You must help them stay that way.",
+    "They are an abomination, and should be destroyed. Except you can’t– work out with them why not.",
+    "Their prayer (perhaps an informal or even unconscious prayer) summoned you.",
+    "They fill you with feelings of sexual infatuation. You are confused by the associated mortal emotions.",
+    "They saved your life, and you understand (intellectually at least) that you owe them for it.",
+    "They’re the person you go to for advice on mortal stuff (e.g sex, food, drugs, television, etc)."
+  ],
+  "improvements": [
+    "Get +1 Tough, max +3.",
+    "Get +1 Cool, max +3.",
+    "Get +1 Charm, max +3.",
+    "Get +1 Sharp, max +3.",
+    "Get +1 Weird, max +3.",
+    "Take another Divine move.",
+    "Take another Divine move.",
+    "Gain a lesser divine being as an ally, sent from above to help with your mission.",
+    "Take a move from another playbook.",
+    "Take a move from another playbook."
+  ],
+  "advanced_improvements": [
+    "Get +1 to any rating, max +3.",
+    "Change this hunter to a new type.",
+    "Create a second hunter to play as well as this one.",
+    "Mark two of the basic moves as advanced.",
+    "Mark another two of the basic moves as advanced.",
+    "Retire this hunter to safety.",
+    "Erase one used luck mark from your playbook.",
+    "Change  your  mission.  Select  a  different  mission  from  the  normal  options,  or  (with  the  Keeper’s  agreement) a new mission of your creation."
+  ]
+}

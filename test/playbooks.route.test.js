@@ -37,8 +37,7 @@ describe("Playbooks route", () => {
       playbooks.forEach(playbook => {
         chai
         .request(server)
-        // .get(`/api/v1/playbooks/${playbook.index}`)
-        .get(`/api/v1/playbooks/chosen`)
+        .get(`/api/v1/playbooks/${playbook.index}`)
         .end((err, res) => {
           // Returns successfully
           expect(res).to.have.status(200);

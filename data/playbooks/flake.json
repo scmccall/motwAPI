@@ -1,0 +1,112 @@
+{
+  "index": "flake",
+  "name": "The Flake",
+  "luck_special": "When you spend a point of Luck, pick an aspect of the current situation. The Keeper will tell you what other conspiracies that aspect connects to.",
+  "moves": {
+    "required_move_slots": 0,
+    "required_moves": [],
+    "optional_move_slots": 3,
+    "optional_moves": [
+      {
+        "name": "Connect the Dots",
+        "description": "At the beginning of each mystery, if you look for the wider patterns that current events might be part of, roll +Sharp. On a 10+ hold 3, and on a 7-9 hold 1. Spend your hold during the mystery to ask the Keeper any one of the following questions: Is this person connected to current events more than they are saying? When and where will the next critical event occur? What does the monster want from this person? Is this connected to previous mysteries we have investigated? How does this mystery connect to the bigger picture?"
+      },
+      {
+        "name": "Crazy Eyes",
+        "description": "You get +1 Weird (max +3)."
+      },
+      {
+        "name": "See, It All Fits Together",
+        "description": "You can use Sharp instead of Charm when you manipulate someone."
+      },
+      {
+        "name": "Suspicious Mind",
+        "description": "If someone lies to you, you know it."
+      },
+      {
+        "name": "Often Overlooked",
+        "description": "When you act all crazy to avoid something, roll +Weird. On a 10+ you’re regarded as unthreatening and unimportant. On a 7-9, pick one: unthreatening or unimportant. On a miss, you draw lots (but not all) of the attention."
+      },
+      {
+        "name": "Contrary",
+        "description": "When you seek out and receive some-one’s honest advice on the best course of action for you and then do something else instead, mark experience. If you do exactly the opposite of their advice, you also take +1 ongoing on any moves you make pursuing that course."
+      },
+      {
+        "name": "Net Friends",
+        "description": "You know a lot of people on the Inter-net. When you contact a net friend to help you with a mystery, roll +Charm. On a 10+, they’re available and helpful—they can fix something, break a code, hack a computer, or get you some special information. On a 7-9, they’re prepared to help, but it’s either going to take some time or you’re going to have to do part of it yourself. On a miss, you burn some bridges."
+      },
+      {
+        "name": "Sneaky",
+        "description": "When you attack from ambush, or from behind, inflict +2 harm."
+      }
+    ]
+  },
+  "ratings": [
+    {
+      "charm": 1,
+      "cool": 1,
+      "sharp": 2,
+      "tough": -1,
+      "weird": 0
+    },
+    {
+      "charm": 0,
+      "cool": 1,
+      "sharp": 2,
+      "tough": -1,
+      "weird": 1
+    },
+    {
+      "charm": 1,
+      "cool": -1,
+      "sharp": 2,
+      "tough": 1,
+      "weird": 0
+    },
+    {
+      "charm": 1,
+      "cool": -1,
+      "sharp": 2,
+      "tough": 0,
+      "weird": 1
+    },
+    {
+      "charm": -1,
+      "cool": -1,
+      "sharp": 2,
+      "tough": 0,
+      "weird": 2
+    }
+  ],
+  "history": [
+    "They’re somehow tied into it all. You’ve been keeping an eye on them.",
+    "They’re a close relative. Ask them to decide exactly what.",
+    "Old friends, who originally met through a long chain of coincidences.",
+    "You went through hell together: maybe a monster, maybe military service, maybe time in an institution. Whatever it was, it bound you together, and you have total trust in each other.",
+    "Members of the same support group.",
+    "Fellow freaks.",
+    "The signs all pointed to working together. So you found them and now you work together.",
+    "You know each other through cryptozoology and conspiracy theory websites."
+  ],
+  "improvements": [
+    "Get +1 Sharp, max +3.",
+    "Get +1 Charm, max +3.",
+    "Get +1 Cool, max +3.",
+    "Get +1 Weird, max +3.",
+    "Take another Flake move.",
+    "Take another Flake move.",
+    "Get a haven, like the Expert has, with two options.",
+    "Gain another option for your haven.",
+    "Take a move from another playbook.",
+    "Take a move from another playbook."
+  ],
+  "advanced_improvements": [
+    "Get +1 to any rating, max +3.",
+    "Change this hunter to a new type.",
+    "Create a second hunter to play as well as this one.",
+    "Mark two of the basic moves as advanced.",
+    "Mark another two of the basic moves as advanced.",
+    "Retire this hunter to safety.",
+    "Get back one used Luck point."
+  ]
+}

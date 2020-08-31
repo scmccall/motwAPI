@@ -1,0 +1,118 @@
+{
+  "index": "initiate",
+  "name": "The Initiate",
+  "luck_special": "When you spend a point of Luck, something goes wrong for your Sect: an ill-advised project or a disastrous operation.",
+  "moves": {
+    "required_move_slots": 1,
+    "required_moves": [
+      {
+        "name": "Connect the Dots",
+        "description": "At the beginning of each mystery, if you look for the wider patterns that current events might be part of, roll +Sharp. On a 10+ hold 3, and on a 7-9 hold 1. Spend your hold during the mystery to ask the Keeper any one of the following questions: Is this person connected to current events more than they are saying? When and where will the next critical event occur? What does the monster want from this person? Is this connected to previous mysteries we have investigated? How does this mystery connect to the bigger picture?"
+      }
+    ],
+    "optional_move_slots": 3,
+    "optional_moves": [
+      {
+        "name": "Ancient Fighting Arts",
+        "description": "When using an old-fashioned hand weapon, you inflict +1 harm and get +1 whenever you roll protect someone."
+      },
+      {
+        "name": "Mystic",
+        "description": "Every time you successfully use magic, take +1 forward."
+      },
+      {
+        "name": "Fortunes",
+        "description": "The Sect has ancient prophecies or divination techniques to predict the future. Once per mystery, you may use them. If you look at what the future holds, roll +Weird. On a 10+ hold 3, and on a 7-9 hold 1. On a miss, you get bad information and the Keeper decides how that affects you. Spend your hold to: have a useful object ready; be somewhere you are needed, just in time; take +1 forward, or give +1 forward to another hunter; retroactively warn someone about an attack, so that it doesn’t happen."
+      },
+      {
+        "name": "Sacred Oath",
+        "description": "You may bind yourself to a single goal, forsaking something during your quest (e.g. speech, all sustenance but bread and water, alcohol, lying, sex, etc). Get the Keeper’s agreement on this—it should match the goal in importance and difficulty. While you keep your oath and work towards your goal, mark experience at the end of every session and get +1 on any rolls that directly help achieve the goal. If you break the oath, take -1 ongoing until you have atoned."
+      },
+      {
+        "name": "Mentor",
+        "description": "You have a mentor in the Sect: name them. When you contact your mentor for info, roll +Sharp. On a 10+, you get an answer to your question, no problem. On a 7-9 you choose: they’re either busy and can’t help, or they answer the question but you owe a favour. On a miss, your question causes trouble."
+      },
+      {
+        "name": "Apprentice",
+        "description": "You have an apprentice: name them. Your job is to teach them the Sect’s ways. They count as an ally: subordinate (motivation: to follow your instructions to the letter)."
+      },
+      {
+        "name": "Helping Hand",
+        "description": "When you successfully help out another hunter, they get +2 instead of the usual +1."
+      },
+      {
+        "name": "That Old Black Magic",
+        "description": "When you use magic, you can ask a question from the investigate a mystery move as your effect."
+      }
+    ]
+  },
+  "ratings": [
+    {
+      "charm": -1,
+      "cool": 1,
+      "sharp": 0,
+      "tough": 1,
+      "weird": 2
+    },
+    {
+      "charm": 0,
+      "cool": 1,
+      "sharp": 1,
+      "tough": -1,
+      "weird": 2
+    },
+    {
+      "charm": -1,
+      "cool": 0,
+      "sharp": -1,
+      "tough": 2,
+      "weird": 2
+    },
+    {
+      "charm": 1,
+      "cool": -1,
+      "sharp": 1,
+      "tough": 0,
+      "weird": 2
+    },
+    {
+      "charm": 0,
+      "cool": 0,
+      "sharp": 0,
+      "tough": 1,
+      "weird": 2
+    }
+  ],
+  "history": [
+    "They are a lay member of your Sect.",
+    "You fought together when the tide of monsters seemed unstoppable. Ask them how it went.",
+    "Friends, but they first met you under your cover identity, and learned about the Sect later. Ask how they feel about that.",
+    "Friends, but they first met you under your cover identity, and learned about the Sect later. Ask how they feel about that.",
+    "Fellow ancient weapons/martial arts club members.",
+    "They’re described in the prophecies, but the role they will play isn’t stated.",
+    "An ex-member of the Sect, but still friends. Ask them why they left or got thrown out.",
+    "You met researching mystical weirdness, and you’ve been occult comrades ever since."
+  ],
+  "improvements": [
+    "Get +1 Weird, max +3.",
+    "Get +1 Cool, max +3.",
+    "Get +1 Sharp, max +3.",
+    "Get +1 Tough, max +3.",
+    "Take another Initiate move.",
+    "Take another Initiate move.",
+    "Get command of your chapter of the Sect.",
+    "Get a Sect team under your command.",
+    "Take a move from another playbook.",
+    "Take a move from another playbook."
+  ],
+  "advanced_improvements": [
+    "Get +1 to any rating, max +3.",
+    "Change this hunter to a new type.",
+    "Create a second hunter to play as well as this one.",
+    "Mark two of the basic moves as advanced.",
+    "Mark another two of the basic moves as advanced.",
+    "Retire this hunter to safety.",
+    "Become the leader, or effective leader, of the whole Sect.",
+    "Get back one used Luck point."
+  ]
+}
