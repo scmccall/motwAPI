@@ -106,5 +106,206 @@
     "Mark another two of the basic moves as advanced.",
     "Retire this hunter to safety.",
     "Delete one of your Doom tags, and (optionally) one of your Heroic tags. You have changed that aspect of your destiny."
-  ]
+  ],
+  "fate": {
+    "how_you_found_out": [
+      "Nightmares and visions",
+      "Some weirdo told you",
+      "An ancient cult found you",
+      "Sought out by your nemesis",
+      "Attacked by monsters",
+      "Trained from birth",
+      "You found the prophecy"
+    ],
+    "heroic_tag_slots": 2,
+    "heroic_tags": [
+      "Sacrifice",
+      "You are the Champion",
+      "Visions",
+      "Secret training",
+      "Magical powers",
+      "Mystical inheritance",
+      "A normal life",
+      "True love",
+      "You can save the world",
+      "Hidden allies",
+      "The end of monsters",
+      "Divine help"
+    ],
+    "doom_tag_slots": 2,
+    "doom_tags": [
+      "You can’t save everyone",
+      "Impossible love",
+      "Failure",
+      "A nemesis",
+      "No normal life",
+      "Loss of loved ones",
+      "Treachery",
+      "Doubt",
+      "Sympathy with the enemy",
+      "Damnation",
+      "Hosts of monsters",
+      "The end of days",
+      "The source of Evil"
+    ]
+  },
+  "gear": {
+    "special_weapon_form_slots": 1,
+    "special_weapon_forms": [
+      {
+        "name": "Staff",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          }
+        ]
+      },
+      {
+        "name": "Haft",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Heavy",
+            "url": "/api/v1/weapon-tags/heavy"
+          }
+        ]
+      },
+      {
+        "name": "Handle",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Balanced",
+            "url": "/api/v1/weapon-tags/balanced"
+          }
+        ]
+      },
+      {
+        "name": "Chain",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Area",
+            "url": "/api/v1/weapon-tags/area"
+          }
+        ]
+      }
+    ],
+    "special_weapon_business_end_slots": 3,
+    "special_weapon_business_ends": [
+      {
+        "name": "Artifact",
+        "harm": 0,
+        "tags": [
+          {
+            "name": "Magic",
+            "url": "/api/v1/weapon-tags/magic"
+          }
+        ]
+      },
+      {
+        "name": "Spikes",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          }
+        ]
+      },
+      {
+        "name": "Blade",
+        "harm": 1,
+        "tags": []
+      },
+      {
+        "name": "Heavy",
+        "harm": 1,
+        "tags": []
+      },
+      {
+        "name": "Long",
+        "harm": 0,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          }
+        ]
+      },
+      {
+        "name": "Throwable",
+        "harm": 0,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          }
+        ]
+      },
+      {
+        "name": "Chain",
+        "harm": 0,
+        "tags": [
+          {
+            "name": "Area",
+            "url": "/api/v1/weapon-tags/area"
+          }
+        ]
+      }
+    ],
+    "special_weapon_material_slots": 1,
+    "special_weapon_materials": [
+      "Steel",
+      "Cold Iron",
+      "Silver",
+      "Wood",
+      "Stone",
+      "Bone",
+      "Teeth",
+      "Obsidian"
+    ]
+  },
+  "look": {
+    "body": [
+      "Kid",
+      "Teen",
+      "Young",
+      "Burnt-out"
+    ],
+    "face": [
+      "Fresh face",
+      "Haggard face",
+      "Young face",
+      "Haunted face",
+      "Hopeful Face",
+      "Controlled Face"
+    ],
+    "clothes": [
+      "Preppy clothes",
+      "Casual wear",
+      "Urban wear",
+      "Normal clothes",
+      "Neat clothes",
+      "Street wear"
+    ]
+  }
 }

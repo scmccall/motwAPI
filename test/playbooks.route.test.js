@@ -54,8 +54,8 @@ describe("Playbooks route", () => {
 
           // Moves
           expect(res.body).to.have.property("moves");
+          expect(res.body.moves).to.be.an("object");
           const moves = res.body.moves;
-          expect(moves).to.be.an("object");
           expect(moves).to.have.property("required_move_slots");
           expect(moves.required_move_slots).to.be.a("number");
           expect(moves).to.have.property("required_moves");
@@ -84,8 +84,8 @@ describe("Playbooks route", () => {
 
           // Ratings
           expect(res.body).to.have.property('ratings');
+          expect(res.body.ratings).to.be.an('array');
           const ratings = res.body.ratings;
-          expect(ratings).to.be.an('array');
           ratings.forEach(rating => {
             expect(rating).to.have.property('charm')
             expect(rating.charm).to.be.a("number");
@@ -116,6 +116,122 @@ describe("Playbooks route", () => {
           res.body.advanced_improvements.forEach(advanced_improvement => {
             expect(advanced_improvement).to.be.a("string");
           });
+        });
+      });
+    });
+    describe("unique playbook data has the correct data structure", () => {
+      it("Chosen playbook is correct", () => {
+        chai
+        .request(server)
+        .get(`/api/v1/playbooks/chosen`)
+        .end((err, res) => {
+          // Fate
+          expect(res.body).to.have.property("fate");
+          expect(res.body.fate).to.be.an("object");
+          const fate = res.body.fate
+          expect(fate).to.have.property("how_you_found_out");
+          expect(fate.how_you_found_out).to.be.an("array");
+          fate.how_you_found_out.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+          expect(fate).to.have.property("heroic_tag_slots");
+          expect(fate.heroic_tag_slots).to.be.a("number");
+          expect(fate).to.have.property("heroic_tags");
+          expect(fate.heroic_tags).to.be.an("array");
+          fate.heroic_tags.forEach(tag => {
+            expect(tag).to.be.a("string");
+          });
+          expect(fate).to.have.property("doom_tag_slots");
+          expect(fate.doom_tag_slots).to.be.a("number");
+          expect(fate).to.have.property("doom_tags");
+          expect(fate.doom_tags).to.be.an("array");
+          fate.doom_tags.forEach(tag => {
+            expect(tag).to.be.a("string");
+          });
+
+          //  Gear
+          expect(res.body).to.have.property("gear");
+          expect(res.body.gear).to.be.an("object");
+          const gear = res.body.gear;
+          expect(gear).to.have.property("special_weapon_form_slots");
+          expect(gear.special_weapon_form_slots).to.be.a("number");
+          expect(gear).to.have.property("special_weapon_forms");
+          expect(gear.special_weapon_forms).to.be.an("array");
+          gear.special_weapon_forms.forEach(form => {
+            expect(form).to.be.an("object");
+            expect(form).to.have.property("name");
+            expect(form.name).to.be.a("string");
+            expect(form).to.have.property("harm");
+            expect(form.harm).to.be.a("number");
+            expect(form).to.have.property("tags");
+            expect(form.tags).to.be.an("array");
+            form.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+            });
+          });
+          expect(gear).to.have.property("special_weapon_business_end_slots");
+          expect(gear.special_weapon_business_end_slots).to.be.a("number");
+          expect(gear).to.have.property("special_weapon_business_ends");
+          expect(gear.special_weapon_business_ends).to.be.an("array");
+          gear.special_weapon_business_ends.forEach(end => {
+            expect(end).to.be.an("object");
+            expect(end).to.have.property("name");
+            expect(end.name).to.be.a("string");
+            expect(end).to.have.property("harm");
+            expect(end.harm).to.be.a("number");
+            expect(end).to.have.property("tags");
+            expect(end.tags).to.be.an("array");
+            end.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+              });
+            });
+          expect(gear).to.have.property("special_weapon_material_slots");
+          expect(gear.special_weapon_material_slots).to.be.a("number");
+          expect(gear).to.have.property("special_weapon_materials");
+          expect(gear.special_weapon_materials).to.be.an("array");
+          gear.special_weapon_materials.forEach(material => {
+            expect(material).to.be.a("string");
+          });
+
+          // Look
+          expect(res.body).to.have.property("look");
+          expect(res.body.look).to.be.an("object");
+          const look = res.body.look;
+          expect(look).to.have.property("body");
+          expect(look.body).to.be.an("array");
+          look.body.forEach(body => {
+            expect(body).to.be.a("string");
+          });
+          expect(look).to.have.property("face");
+          expect(look.face).to.be.an("array");
+          look.face.forEach(face => {
+            expect(face).to.be.a("string");
+          });
+          expect(look).to.have.property("clothes");
+          expect(look.clothes).to.be.an("array");
+          look.clothes.forEach(clothes => {
+            expect(clothes).to.be.a("string");
+          });
+        });
+      });
         });
       });
     });
