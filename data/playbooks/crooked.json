@@ -108,5 +108,203 @@
     "Mark another two of the basic moves as advanced.",
     "Retire this hunter to safety.",
     "Erase one used luck mark from your playbook."
-  ]
+  ],
+  "background" :[
+    {
+      "name": "Hoodlum",
+      "description": "You can use Tough instead of Charm to manipulate someone with threats of violence."
+    },
+    {
+      "name": "Burglar",
+      "description": "When you break into a secure location, roll +Sharp. On a 10+ pick three, on a 7-9 pick two: you get in undetected, you get out undetected, you don’t leave a mess, you find what you were after."
+    },
+    {
+      "name": "Grifter",
+      "description": "When you are about to manipulate someone, you can ask the Keeper “What will con-vince this person to do what I want?” The Keeper must answer honestly, but not necessarily completely."
+    },
+    {
+      "name": "Fixer",
+      "description": "If you need to buy something, sell something, or hire someone, roll +Charm. On a 10+ you know just the person who will be interested. On a 7-9 you know the only person who can do it, but there’s a complication. Pick one: you owe them; they screwed you over; you screwed them over. On a miss, the only person who can help is someone who absolutely hates you."
+    },
+    {
+      "name": "Assassin",
+      "description": "When you take your first shot at an unsuspecting target, do +2 Harm."
+    },
+    {
+      "name": "Charlatan",
+      "description": "When you want people to think you are using magic, roll +Cool. On a 10 or more, your audience is amazed and fooled by your illusion. On a 7-9 you tripped up a couple of times, maybe someone will notice. You may also manipulate people with fortune telling. When you do that, ask “What are they hoping for right now?” as a free question (even on a miss)."
+    },
+    {
+      "name": "Pickpocket",
+      "description": "When you steal something small, roll +Charm. On a 10 or more, you get it and they didn’t notice you taking it. On a 7-9 either you don’t grab it, you grab the wrong thing, or they remember you later: your choice."
+    }
+  ],
+  "heat": [
+    "A police detective, {blank}, has made it a personal goal to put you away.",
+    "You have a rival from your background, {blank}, who never misses a chance to screw you over.",
+    "You pissed off a well-connected criminal, {blank}, and they’ll do whatever they can to destroy you.",
+    "{blank} is someone with special powers, a person or monster, who you took advantage of.",
+    "{blank} is an old partner you betrayed in the middle of a job."
+  ],
+  "underworld": [
+    "The target of a job was a dangerous creature. Pick one: vampire, werewolf, troll, reptiloid.",
+    "You worked with someone who was more than they seemed. Pick one: sorcerer, demon, faerie, psychic.",
+    "You were hired by something weird. Pick one: immortal, god, outsider, witch.",
+    "Things went south on a job— including, but not limited to, running into (choose one): a horde of goblins, a hunger of ghouls, a dream-eater, a salamander."
+  ],
+  "gear": {
+    "weapon_slots": 3,
+    "weapons": [
+      {
+        "name": ".22 revolver",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          },
+          {
+            "name": "Small",
+            "url": "/api/v1/weapon-tags/small"
+          }
+        ]
+      },
+      {
+        "name": ".38 revolver",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "9mm",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Hunting rifle",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Far",
+            "url": "/api/v1/weapon-tags/far"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Big knife",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          }
+        ]
+      },
+      {
+        "name": "Baseball bat",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          }
+        ]
+      },
+      {
+        "name": "Submachinegun",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          },
+          {
+            "name": "Area",
+            "url": "/api/v1/weapon-tags/area"
+          }
+        ]
+      },
+      {
+        "name": "Assault rifle",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Far",
+            "url": "/api/v1/weapon-tags/far"
+          },
+          {
+            "name": "Area",
+            "url": "/api/v1/weapon-tags/area"
+          }
+        ]
+      }
+    ]
+  },
+  "look": {
+    "eyes": [
+      "Hard eyes",
+      "Friendly eyes",
+      "Watchful eyes",
+      "Smiling eyes",
+      "Calculating eyes"
+    ],
+    "clothes": [
+      "Street wear",
+      "Tailored suit",
+      "Cheap suit",
+      "Tracksuit",
+      "Non-descript clothes"
+    ]
+  }
 }
