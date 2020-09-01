@@ -104,5 +104,221 @@
     "Mark two of the basic moves as advanced.",
     "Mark another two of the basic moves as advanced.",
     "Retire this hunter to safety."
-  ]
+  ],
+  "haven": [
+    {
+      "name": "Lore Library",
+      "description": "When you hit the books, take +1 forward to investigate the mystery (as long as historical or reference works are appropriate)."
+    },
+    {
+      "name": "Mystical Library",
+      "description": "If you use your library’s occult tomes and grimoires, preparing with your tomes and grimoires, take +1 forward for use magic."
+    },
+    {
+      "name": "Protection Spells",
+      "description": "Your haven is safe from monsters— they cannot enter. Monsters might be able to do something special to evade the wards, but not easily."
+    },
+    {
+      "name": "Armory",
+      "description": "You have a stockpile of mystical and rare monster-killing weapons and items. If you need a special weapon, roll +Weird. On a 10+ you have it (and plenty if that matters). On a 7-9 you have it, but only the minimum. On a miss, you’ve got the wrong thing."
+    },
+    {
+      "name": "Infirmary",
+      "description": "You can heal people, and have the space for one or two to recuperate. The Keeper will tell you how long any patient’s recovery is likely to take, and if you need extra supplies or help."
+    },
+    {
+      "name": "Workshop",
+      "description": "You have a space for building and repairing guns, cars and other gadgets. Work out with the Keeper how long any repair or construction will take, and if you need extra supplies or help."
+    },
+    {
+      "name": "Oubliette",
+      "description": "This room is isolated from every kind of monster, spirit and magic that you know about. Anything you stash in there can’t be found, can’t do any magic, and can’t get out."
+    },
+    {
+      "name": "Panic Room",
+      "description": "This has essential supplies and is protected by normal and mystical means. You can hide out there for a few days, safe from pretty much anything."
+    },
+    {
+      "name": "Magical Laboratory",
+      "description": "You have a mystical lab with all kinds of weird ingredients and tools useful for casting spells (like the use magic move, big magic, and any other magical moves)"
+    }
+  ],
+  "gear": {
+    "monster_slaying_weapon_slots": 3,
+    "monster_slaying_weapons": [
+      {
+        "name": "Mallet & wooden stakes",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Intimate",
+            "url": "/api/v1/weapon-tags/intimate"
+          },
+          {
+            "name": "Slow",
+            "url": "/api/v1/weapon-tags/slow"
+          },
+          {
+            "name": "Wooden",
+            "url": "/api/v1/weapon-tags/wooden"
+          }
+        ]
+      },
+      {
+        "name": "Silver sword",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          },
+          {
+            "name": "Silver",
+            "url": "/api/v1/weapon-tags/silver"
+          }
+        ]
+      },
+      {
+        "name": "Cold iron sword",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          },
+          {
+            "name": "Iron",
+            "url": "/api/v1/weapon-tags/iron"
+          }
+        ]
+      },
+      {
+        "name": "Blessed knife",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Holy",
+            "url": "/api/v1/weapon-tags/holy"
+          }
+        ]
+      },
+      {
+        "name": "Magical dagger",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Magic",
+            "url": "/api/v1/weapon-tags/magic"
+          }
+        ]
+      },
+      {
+        "name": "Juju bag",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Far",
+            "url": "/api/v1/weapon-tags/far"
+          },
+          {
+            "name": "Magic",
+            "url": "/api/v1/weapon-tags/magic"
+          }
+        ]
+      },
+      {
+        "name": "Flamethrower",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Fire",
+            "url": "/api/v1/weapon-tags/fire"
+          },
+          {
+            "name": "Heavy",
+            "url": "/api/v1/weapon-tags/heavy"
+          },
+          {
+            "name": "Volatile",
+            "url": "/api/v1/weapon-tags/volatile"
+          }
+        ]
+      },
+      {
+        "name": "Magnum",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      }
+    ]
+  },
+  "look": {
+    "face": [
+      "Thoughtful face",
+      "Lined face",
+      "Scarred face",
+      "Contemplative face",
+      "Stern face",
+      "Avuncular face",
+      "Experienced face",
+      "Ancient face"
+    ],
+    "clothes": [
+      "Old fashioned clothes",
+      "Casual clothes",
+      "Utility clothes",
+      "Tailored clothes",
+      "Outdoor clothes"
+    ]
+  }
 }

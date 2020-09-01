@@ -375,6 +375,71 @@ describe("Playbooks route", () => {
           });
         });
       });
+      it("Expert playbook is correct", () => {
+        chai
+        .request(server)
+        .get('/api/v1/playbooks/expert')
+        .end((err, res) => {
+          // Haven
+          expect(res.body).to.have.property("haven");
+          expect(res.body.haven).to.be.an("array");
+          res.body.haven.forEach(option => {
+            expect(option).to.be.an("object");
+            expect(option).to.have.property("name");
+            expect(option.name).to.be.a("string");
+            expect(option).to.have.property("description");
+            expect(option.description).to.be.a("string");
+          })
+          
+
+          // Gear
+          expect(res.body).to.have.property("gear");
+          expect(res.body.gear).to.be.an("object");
+          const gear = res.body.gear;
+          expect(gear).to.have.property("monster_slaying_weapon_slots");
+          expect(gear.monster_slaying_weapon_slots).to.be.a("number");
+          expect(gear).to.have.property("monster_slaying_weapons");
+          expect(gear.monster_slaying_weapons).to.be.an("array");
+          gear.monster_slaying_weapons.forEach(weapon => {
+            expect(weapon).to.be.an("object");
+            expect(weapon).to.have.property("name");
+            expect(weapon.name).to.be.a("string");
+            expect(weapon).to.have.property("harm");
+            expect(weapon.harm).to.be.a("number");
+            expect(weapon).to.have.property("tags");
+            expect(weapon.tags).to.be.an("array");
+            weapon.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+              });
+            });
+          });
+          
+
+          // Look
+          expect(res.body).to.have.property("look");
+          expect(res.body.look).to.be.an("object");
+          const look = res.body.look;
+          expect(look).to.have.property("face");
+          expect(look.face).to.be.an("array");
+          look.face.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+          expect(look).to.have.property("clothes");
+          expect(look.clothes).to.be.an("array");
+          look.clothes.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+        });
+      });
     });
   });
 });
