@@ -505,6 +505,111 @@ describe("Playbooks route", () => {
           });
         });
       });
+      it("Initiate playbook is correct", () => {
+        chai
+        .request(server)
+        .get('/api/v1/playbooks/initiate')
+        .end((err, res) => {
+          // Gear
+          expect(res.body).to.have.property("gear");
+          expect(res.body.gear).to.be.an("object");
+          const gear = res.body.gear;
+          expect(gear).to.have.property("old_fashioned_weapon_slots");
+          expect(gear.old_fashioned_weapon_slots).to.be.an("object");
+          expect(gear.old_fashioned_weapon_slots).to.have.property("if_sect_has_fighting_arts_or_obsolete_gear");
+          expect(gear.old_fashioned_weapon_slots.if_sect_has_fighting_arts_or_obsolete_gear).to.be.a("number");
+          expect(gear.old_fashioned_weapon_slots).to.have.property("if_sect_does_not_have_fighting_arts_or_obsolete_gear");
+          expect(gear.old_fashioned_weapon_slots.if_sect_does_not_have_fighting_arts_or_obsolete_gear).to.be.a("number");
+          expect(gear).to.have.property("old_fashioned_weapons");
+          expect(gear.old_fashioned_weapons).to.be.an("array");
+          gear.old_fashioned_weapons.forEach(weapon => {
+            expect(weapon).to.be.an("object");
+            expect(weapon).to.have.property("name");
+            expect(weapon.name).to.be.a("string");
+            expect(weapon).to.have.property("harm");
+            expect(weapon.harm).to.be.a("number");
+            expect(weapon).to.have.property("tags");
+            expect(weapon.tags).to.be.an("array");
+            weapon.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+              });
+            });
+          });      
+          expect(gear).to.have.property("modern_weapon_slots");
+          expect(gear.modern_weapon_slots).to.be.an("object");
+          expect(gear.modern_weapon_slots).to.have.property("if_sect_has_modernised_or_nifty_gadgets");
+          expect(gear.modern_weapon_slots.if_sect_has_modernised_or_nifty_gadgets).to.be.a("number");
+          expect(gear.modern_weapon_slots).to.have.property("if_sect_does_not_have_modernised_or_nifty_gadgets");
+          expect(gear.modern_weapon_slots.if_sect_does_not_have_modernised_or_nifty_gadgets).to.be.a("number");
+          expect(gear).to.have.property("modern_weapons");
+          expect(gear.modern_weapons).to.be.an("array");
+          gear.modern_weapons.forEach(weapon => {
+            expect(weapon).to.be.an("object");
+            expect(weapon).to.have.property("name");
+            expect(weapon.name).to.be.a("string");
+            expect(weapon).to.have.property("harm");
+            expect(weapon.harm).to.be.a("number");
+            expect(weapon).to.have.property("tags");
+            expect(weapon.tags).to.be.an("array");
+            weapon.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+              });
+            });
+          });
+          
+          // Sect
+          expect(res.body).to.have.property("sect");
+          expect(res.body.sect).to.be.an("object");
+          const sect = res.body.sect;
+          expect(sect).to.have.property("good_tradition_slots");
+          expect(sect.good_tradition_slots).to.be.a("number");
+          expect(sect).to.have.property("good_traditions");
+          expect(sect.good_traditions).to.be.an("array");
+          sect.good_traditions.forEach(tradition => {
+            expect(tradition).to.be.a("string");
+          });
+          expect(sect).to.have.property("bad_tradition_slots");
+          expect(sect.bad_tradition_slots).to.be.a("number");
+          expect(sect).to.have.property("bad_traditions");
+          expect(sect.bad_traditions).to.be.an("array");
+          sect.bad_traditions.forEach(tradition => {
+            expect(tradition).to.be.a("string");
+          });
+
+          // Look
+          expect(res.body).to.have.property("look");
+          expect(res.body.look).to.be.an("object");
+          const look = res.body.look;
+          expect(look).to.have.property("body");
+          expect(look.body).to.be.an("array");
+          look.body.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+          expect(look).to.have.property("clothes");
+          expect(look.clothes).to.be.an("array");
+          look.clothes.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+        });
+      });
     });
   });
 });

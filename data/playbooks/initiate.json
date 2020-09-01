@@ -114,5 +114,268 @@
     "Retire this hunter to safety.",
     "Become the leader, or effective leader, of the whole Sect.",
     "Get back one used Luck point."
-  ]
+  ],
+  "gear": {
+    "old_fashioned_weapon_slots": {
+      "if_sect_has_fighting_arts_or_obsolete_gear": 3,
+      "if_sect_does_not_have_fighting_arts_or_obsolete_gear": 2
+    },
+    "old_fashioned_weapons": [
+      {
+        "name": "Sword",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          }
+        ]
+      },
+      {
+        "name": "Axe",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          }
+        ]
+      },
+      {
+        "name": "Big sword",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          },
+          {
+            "name": "Heavy",
+            "url": "/api/v1/weapon-tags/heavy"
+          }
+        ]
+      },
+      {
+        "name": "Big axe",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          },
+          {
+            "name": "Slow",
+            "url": "/api/v1/weapon-tags/slow"
+          },
+          {
+            "name": "Heavy",
+            "url": "/api/v1/weapon-tags/heavy"
+          }
+        ]
+      },
+      {
+        "name": "Silver knife",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Silver",
+            "url": "/api/v1/weapon-tags/silver"
+          }
+        ]
+      },
+      {
+        "name": "Fighting stick",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Quick",
+            "url": "/api/v1/weapon-tags/quick"
+          }
+        ]
+      },
+      {
+        "name": "Mace",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          }
+        ]
+      },
+      {
+        "name": "Crossbow",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Slow",
+            "url": "/api/v1/weapon-tags/slow"
+          }
+        ]
+      }
+    ],
+    "modern_weapon_slots": {
+      "if_sect_has_modernised_or_nifty_gadgets": 2,
+      "if_sect_does_not_have_modernised_or_nifty_gadgets": 1
+    },
+    "modern_weapons": [
+      {
+        "name": ".38 revolver",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "9mm",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Sniper rifle",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Far",
+            "url": "/api/v1/weapon-tags/far"
+          }
+        ]
+      },
+      {
+        "name": "Magnum",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          }
+        ]
+      }
+    ]
+  },
+  "sect": {
+    "good_tradition_slots": 2,
+    "good_traditions": [
+      "Knowledgeable",
+      "Ancient lore",
+      "Magical lore",
+      "Fighting arts",
+      "Modernised",
+      "Chapters everywhere",
+      "Secular power",
+      "Flexible tactics",
+      "Open hierarchy",
+      "Integrated in society",
+      "Rich",
+      "Nifty gadgets",
+      "Magical items"
+    ],
+    "bad_tradition_slots": 1,
+    "bad_traditions": [
+      "Dubious motives",
+      "Tradition-bound",
+      "Short-sighted",
+      "Paranoid and secretive",
+      "Closed hierarchy",
+      "Factionalised",
+      "Strict laws",
+      "Mystical oaths",
+      "Total obedience",
+      "Tyrannical leaders",
+      "Obsolete gear",
+      "Poor"
+    ]
+  },
+  "look": {
+    "body": [
+      "Hardened body",
+      "Tattooed body",
+      "Agile body",
+      "Strong body",
+      "Thin body",
+      "Angular body",
+      "Hunched body"
+    ],
+    "clothes": [
+      "Archaic clothes",
+      "Unfashionable clothes",
+      "Ceremonial clothes",
+      "Mismatched clothes",
+      "Formal clothes"
+    ]
+  }
 }
