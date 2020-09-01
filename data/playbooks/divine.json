@@ -105,5 +105,131 @@
     "Retire this hunter to safety.",
     "Erase one used luck mark from your playbook.",
     "Change  your  mission.  Select  a  different  mission  from  the  normal  options,  or  (with  the  Keeper’s  agreement) a new mission of your creation."
-  ]
+  ],
+  "mission": [
+    "You are here to fight the schemes of an Adversary.",
+    "The End of Days approaches. Your role is to guide these hunters and prevent it from coming to pass.",
+    "The End of Days approaches. Your role is to guide these hunters and ensure it comes to pass.",
+    "You have been exiled. You must work for the cause of Good without drawing attention from your brothers and sisters, as they are bound to execute you for your crimes.",
+    "One of the other hunters has a crucial role to play in events to come. You must prepare them for their role, and protect them at any cost."
+  ],
+  "gear": {
+    "divine_weapon_slots": 1,
+    "divine_weapons": [
+      {
+        "name": "Flaming sword",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Fire",
+            "url": "/api/v1/weapon-tags/fire"
+          },
+          {
+            "name": "Holy",
+            "url": "/api/v1/weapon-tags/holy"
+          }
+        ]
+      },
+      {
+        "name": "Thunder hammer",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Stun",
+            "url": "/api/v1/weapon-tags/stun"
+          },
+          {
+            "name": "Holy",
+            "url": "/api/v1/weapon-tags/holy"
+          }
+        ]
+      },
+      {
+        "name": "Razor whip",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          },
+          {
+            "name": "Holy",
+            "url": "/api/v1/weapon-tags/holy"
+          }
+        ]
+      },
+      {
+        "name": "Five demon bag",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Magic",
+            "url": "/api/v1/weapon-tags/magic"
+          },
+          {
+            "name": "Holy",
+            "url": "/api/v1/weapon-tags/holy"
+          }
+        ]
+      },
+      {
+        "name": "Silver trident",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Silver",
+            "url": "/api/v1/weapon-tags/silver"
+          },
+          {
+            "name": "Holy",
+            "url": "/api/v1/weapon-tags/holy"
+          }
+        ]
+      }
+    ],
+    "divine_armor": 1
+  },
+  "look": {
+    "body": [
+      "Human",
+      "Marked by divinity",
+      "Inhuman"
+    ],
+    "eyes": [
+      "Blazing eyes",
+      "Terrifying eyes",
+      "Placid eyes",
+      "Sparkling eyes",
+      "Perceptive eyes",
+      "Starry eyes",
+      "Glowing eyes"
+    ],
+    "clothes": [
+      "Dirty clothes",
+      "Perfect suit",
+      "Rumpled suit",
+      "Casual clothes",
+      "Practical clothes"
+    ]
+  }
 }
