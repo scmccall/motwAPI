@@ -106,5 +106,145 @@
     "Free yourself from the curse of your kind. Your curse no longer applies, but you lose 1 Weird.",
     "Get back one used Luck point.",
     "Get back one used Luck point."
-  ]
+  ],
+  "gear": {
+    "mundane_weapon_slots":2,
+    "mundane_weapons": [
+      {
+        "name": "Golf club, baseball bat, cricket bat, or hockey stick",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Innocuous",
+            "url": "/api/v1/weapon-tags/innocuous"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          }
+        ]
+      },
+      {
+        "name": "Pocket knife or multitool",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Useful",
+            "url": "/api/v1/weapon-tags/useful"
+          },
+          {
+            "name": "Small",
+            "url": "/api/v1/weapon-tags/small"
+          }
+        ]
+      },
+      {
+        "name": "Small handgun",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          }
+        ]
+      },
+      {
+        "name": "Hunting rifle",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Far",
+            "url": "/api/v1/weapon-tags/far"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          }
+        ]
+      },
+      {
+        "name": "Sledge-hammer or fire axe",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          }
+        ]
+      },
+      {
+        "name": "Nunchuks",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Area",
+            "url": "/api/v1/weapon-tags/area"
+          }
+        ]
+      }
+    ],
+    "means_of_transport_slots": 1,
+    "means_of_transport": [
+      "Skateboard",
+      "Bicycle",
+      "Fairly new car in decent condition",
+      "Classic car in terrible condition",
+      "Motorcycle",
+      "Van"
+    ]
+  },
+  "look": {
+    "body": [
+      "Kid",
+      "Teen",
+      "Adult",
+      "Old"
+    ],
+    "face": [
+      "Friendly face",
+      "Alluring face",
+      "Laughing face",
+      "Trustworthy face",
+      "Average face",
+      "Serious face",
+      "Sensual face"
+    ],
+    "clothes": [
+      "Normal clothes",
+      "Casual clothes",
+      "Goth clothes",
+      "Sporty clothes",
+      "Work clothes",
+      "Street clothes",
+      "Nerdy clothes"
+    ]
+  }
 }
