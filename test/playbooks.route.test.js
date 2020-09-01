@@ -610,6 +610,108 @@ describe("Playbooks route", () => {
           });
         });
       });
+      it("Monstrous playbook is correct", () => {
+        chai
+        .request(server)
+        .get('/api/v1/playbooks/monstrous')
+        .end((err, res) => {
+          // Curses
+          expect(res.body).to.have.property("curses");
+          expect(res.body.curses).to.be.an("array");
+          res.body.curses.forEach(curse => {
+            expect(curse).to.be.an("object");
+            expect(curse).to.have.property("name");
+            expect(curse.name).to.be.a("string");
+            expect(curse).to.have.property("description");
+            expect(curse.description).to.be.a("string");
+          });
+
+          // Natural Attacks
+          expect(res.body).to.have.property("natural_attacks");
+          expect(res.body.natural_attacks).to.be.an("object");
+          const natural_attacks = res.body.natural_attacks
+          expect(natural_attacks).to.have.property("natural_attack_slots");
+          expect(natural_attacks.natural_attack_slots).to.be.a("number");
+          expect(natural_attacks).to.have.property("attacks");
+          expect(natural_attacks.attacks).to.be.an("array");
+          natural_attacks.attacks.forEach(attack => {
+            expect(attack).to.be.an("object");
+            expect(attack).to.have.property("name");
+            expect(attack.name).to.be.a("string");
+            expect(attack).to.have.property("type");
+            expect(attack.type).to.be.oneOf(["base", "extra"]);
+            expect(attack.type).to.be.a("string");
+            expect(attack).to.have.property("harm");
+            expect(attack.harm).to.be.a("number");
+            expect(attack).to.have.property("tags");
+            expect(attack.tags).to.be.an("array");
+            attack.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+              });
+            });
+          });
+
+          // Gear
+          expect(res.body).to.have.property("gear");
+          expect(res.body.gear).to.be.an("object");
+          const gear = res.body.gear;
+          expect(gear).to.have.property("weapon_slots");
+          expect(gear.weapon_slots).to.be.a("number");
+          expect(gear).to.have.property("weapons");
+          expect(gear.weapons).to.be.an("array");
+          gear.weapons.forEach(weapon => {
+            expect(weapon).to.be.an("object");
+            expect(weapon).to.have.property("name");
+            expect(weapon.name).to.be.a("string");
+            expect(weapon).to.have.property("harm");
+            expect(weapon.harm).to.be.a("number");
+            expect(weapon).to.have.property("tags");
+            expect(weapon.tags).to.be.an("array");
+            weapon.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+              });
+            });
+          });
+
+          // Look
+          expect(res.body).to.have.property("look");
+          expect(res.body.look).to.be.an("object");
+          const look = res.body.look;
+          expect(look).to.have.property("body");
+          expect(look.body).to.be.an("array");
+          look.body.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+          expect(look).to.have.property("aura");
+          expect(look.aura).to.be.an("array");
+          look.aura.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+          expect(look).to.have.property("clothes");
+          expect(look.clothes).to.be.an("array");
+          look.clothes.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+        });
+      });
     });
   });
 });

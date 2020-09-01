@@ -126,5 +126,280 @@
     "Free yourself from the curse of your kind. Your curse no longer applies, but you lose 1 Weird.",
     "You turn evil (again). Retire this character, they become one of the Keeper’s threats.",
     "Get back one used Luck point."
-  ]
+  ],
+  "curses": [
+    {
+      "name": "Feed",
+      "description": "You must subsist on living humans— it might take the form of blood, brains, or spiritual essence but it must be from people. You need to act under pressure to resist feeding whenever a perfect opportunity presents itself."
+    },
+    {
+      "name": "Vulnerability",
+      "description": "Pick a substance. You suffer +1 harm when you suffer harm from it. If you are bound or surrounded by it, you must act under pressure to use your powers."
+    },
+    {
+      "name": "Pure Drive",
+      "description": "One emotion rules you. Pick from: hunger, hate, anger, fear, jealousy, greed, joy, pride, envy, lust, or cruelty. Whenever you have a chance to indulge that emotion, you must do so immediately, or act under pressure to resist."
+    },
+    {
+      "name": "Dark Master",
+      "description": "You have an evil lord who doesn’t know you changed sides. They still give you orders, and they do not tolerate refusal. Or failure."
+    }
+  ],
+  "natural_attacks": {
+    "natural_attack_slots": 2,
+    "attacks": [
+      {
+        "name": "Teeth",
+        "type": "base",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Intimate",
+            "url": "/api/v1/weapon-tags/intimate"
+          }
+        ]
+      },
+      {
+        "name": "Claws",
+        "type": "base",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          }
+        ]
+      },
+      {
+        "name": "Magical force",
+        "type": "base",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Magical",
+            "url": "/api/v1/weapon-tags/magical"
+          },
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          }
+        ]
+      },
+      {
+        "name": "Life drain",
+        "type": "base",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Intimate",
+            "url": "/api/v1/weapon-tags/intimate"
+          },
+          {
+            "name": "Life-drain",
+            "url": "/api/v1/weapon-tags/life-drain"
+          }
+        ]
+      },
+      {
+        "name": "Add +1 harm to a base",
+        "type": "extra",
+        "harm": 1,
+        "tags": []
+      },
+      {
+        "name": "Add ignore-armour to a base",
+        "type": "extra",
+        "harm": 0,
+        "tags": [
+          {
+            "name": "Ignore-armour",
+            "url": "/api/v1/weapon-tags/ignore-armour"
+          }
+        ]
+      },
+      {
+        "name": "Add an extra range to a base",
+        "type": "extra",
+        "harm": 0,
+        "tags": [
+          {
+            "name": "Intimate",
+            "url": "/api/v1/weapon-tags/intimate"
+          }
+        ]
+      },
+      {
+        "name": "Add an extra range to a base",
+        "type": "extra",
+        "harm": 0,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          }
+        ]
+      },
+      {
+        "name": "Add an extra range to a base",
+        "type": "extra",
+        "harm": 0,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          }
+        ]
+      }
+    ]
+  },
+  "gear": {
+    "weapon_slots": 1,
+    "weapons": [
+      {
+        "name": ".38 revolver",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "9mm",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Magnum",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Big knife",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          }
+        ]
+      },
+      {
+        "name": "Brass knuckles",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Quiet",
+            "url": "/api/v1/weapon-tags/quiet"
+          },
+          {
+            "name": "Small",
+            "url": "/api/v1/weapon-tags/small"
+          }
+        ]
+      },
+      {
+        "name": "Sword",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          }
+        ]
+      },
+      {
+        "name": "Huge sword",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Heavy",
+            "url": "/api/v1/weapon-tags/heavy"
+          }
+        ]
+      }
+    ]
+  },
+  "look": {
+    "body": [
+      "Almost human",
+      "Half human",
+      "Monstrous"
+    ],
+    "aura": [
+      "Sinister aura",
+      "Powerful aura",
+      "Dark aura",
+      "Unnerving aura",
+      "Energetic aura",
+      "Evil aura",
+      "Bestial aura"
+    ],
+    "clothes": [
+      "Archaic clothes",
+      "Casual clothes",
+      "Ragged clothes",
+      "Tailored clothes",
+      "Stylish clothes",
+      "Street clothes",
+      "Outdoor clothes"
+    ]
+  }
 }
