@@ -777,6 +777,131 @@ describe("Playbooks route", () => {
           });
         });
       });
+      it("Professional playbook is correct", () => {
+        chai
+        .request(server)
+        .get("/api/v1/playbooks/professional")
+        .end((err, res) => {
+
+          // Gear
+          expect(res.body).to.have.property("gear");
+          expect(res.body.gear).to.be.an("object");
+          const gear = res.body.gear;
+          expect(gear).to.have.property("armour_slots");
+          expect(gear.armour_slots).to.be.a("number");
+          expect(gear).to.have.property("armour_options");
+          expect(gear.armour_options).to.be.an("array");
+          gear.armour_options.forEach(option => {
+            expect(option).to.be.an("object");
+            expect(option).to.have.property("name");
+            expect(option.name).to.be.a("string");
+            expect(option).to.have.property("armour");
+            expect(option.armour).to.be.a("number");
+            expect(option).to.have.property("tags");
+            expect(option.tags).to.be.an("array");
+            option.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+              });
+            });
+          });
+          expect(gear).to.have.property("serious_weapon_slots");
+          expect(gear.serious_weapon_slots).to.be.a("number");
+          expect(gear).to.have.property("serious_weapons");
+          expect(gear.serious_weapons).to.be.an("array");
+          gear.serious_weapons.forEach(weapon => {
+            expect(weapon).to.be.an("object");
+            expect(weapon).to.have.property("name");
+            expect(weapon.name).to.be.a("string");
+            expect(weapon).to.have.property("harm");
+            expect(weapon.harm).to.be.a("number");
+            expect(weapon).to.have.property("tags");
+            expect(weapon.tags).to.be.an("array");
+            weapon.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+              });
+            });
+          });
+          expect(gear).to.have.property("normal_weapon_slots");
+          expect(gear.normal_weapon_slots).to.be.a("number");
+          expect(gear).to.have.property("normal_weapons");
+          expect(gear.normal_weapons).to.be.an("array");
+          gear.normal_weapons.forEach(weapon => {
+            expect(weapon).to.be.an("object");
+            expect(weapon).to.have.property("name");
+            expect(weapon.name).to.be.a("string");
+            expect(weapon).to.have.property("harm");
+            expect(weapon.harm).to.be.a("number");
+            expect(weapon).to.have.property("tags");
+            expect(weapon.tags).to.be.an("array");
+            weapon.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+              });
+            });
+          });
+
+          // Agency
+          expect(res.body).to.have.property("agency");
+          expect(res.body.agency).to.be.an("object");
+          const agency = res.body.agency;
+          expect(agency).to.have.property("resource_slots");
+          expect(agency.resource_slots).to.be.a("number");
+          expect(agency).to.have.property("resources");
+          expect(agency.resources).to.be.an("array");
+          agency.resources.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+          expect(agency).to.have.property("red_tape_slots");
+          expect(agency.red_tape_slots).to.be.a("number");
+          expect(agency).to.have.property("red_tape");
+          expect(agency.red_tape).to.be.an("array");
+          agency.red_tape.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+
+          // Look
+          expect(res.body).to.have.property("look");
+          expect(res.body.look).to.be.an("object");
+          const look = res.body.look;
+          expect(look).to.have.property("face");
+          expect(look.face).to.be.an("array");
+          look.face.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+          expect(look).to.have.property("clothes");
+          expect(look.clothes).to.be.an("array");
+          look.clothes.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+          
+        });
+      });
     });
   });
 });

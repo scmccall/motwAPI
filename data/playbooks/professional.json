@@ -110,5 +110,255 @@
     "Retire this hunter to safety.",
     "Get some or all of the other players’ hunters hired by your agency. They get the deal with the agency move, as well as salary and benefits.",
     "Get back one used Luck point."
-  ]
+  ],
+  "gear": {
+    "armour_slots": 1,
+    "armour_options": [
+      {
+        "name": "Flak vest",
+        "armour": 1,
+        "tags": [
+          {
+            "name": "Hidden",
+            "url": "/api/v1/weapon-tags/hidden"
+          }
+        ]
+      },
+      {
+        "name": "Combat armour",
+        "armour": 2,
+        "tags": [
+          {
+            "name": "Heavy",
+            "url": "/api/v1/weapon-tags/heavy"
+          }
+        ]
+      }
+    ],
+    "serious_weapon_slots": 1,
+    "serious_weapons": [
+      {
+        "name": "Assault rifle",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Far",
+            "url": "/api/v1/weapon-tags/far"
+          },
+          {
+            "name": "Area",
+            "url": "/api/v1/weapon-tags/area"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          }
+        ]
+      },
+      {
+        "name": "Grenade launcher",
+        "harm": 4,
+        "tags": [
+          {
+            "name": "Far",
+            "url": "/api/v1/weapon-tags/far"
+          },
+          {
+            "name": "Area",
+            "url": "/api/v1/weapon-tags/area"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          }
+        ]
+      },
+      {
+        "name": "Sniper rifle",
+        "harm": 4,
+        "tags": [
+          {
+            "name": "Far",
+            "url": "/api/v1/weapon-tags/far"
+          }
+        ]
+      },
+      {
+        "name": "Grenades",
+        "harm": 4,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Area",
+            "url": "/api/v1/weapon-tags/area"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Submachine gun",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Area",
+            "url": "/api/v1/weapon-tags/area"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          }
+        ]
+      }
+    ],
+    "normal_weapon_slots": 2,
+    "normal_weapons": [
+      {
+        "name": ".38 revolver",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "9mm",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Hunting rifle",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Far",
+            "url": "/api/v1/weapon-tags/far"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          }
+        ]
+      },
+      {
+        "name": "Big knife",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          }
+        ]
+      }
+    ]
+  },
+  "agency": {
+    "resource_slots":2,
+    "resources": [
+      "Well-armed",
+      "Well-financed",
+      "Rigorous training",
+      "Official pull",
+      "Cover identities",
+      "Offices all over",
+      "Good intel",
+      "Recognized authority",
+      "Weird tech gadgets",
+      "Support teams"
+    ],
+    "red_tape_slots": 2,
+    "red_tape": [
+      "Dubious motives",
+      "Bureaucratic",
+      "Secretive hierarchy",
+      "Cryptic missions",
+      "Hostile superiors",
+      "Inter-departmental rivalry",
+      "Budget cuts",
+      "Take no prisoners policy",
+      "Live capture policy"
+    ]
+  },
+  "look": {
+    "face": [
+      "Chisled face",
+      "Scarred face",
+      "Unshaven face",
+      "Soft face",
+      "Young face",
+      "Old face",
+      "Determined face"
+    ],
+    "clothes": [
+      "Tailored suit",
+      "Shabby suit",
+      "Perfect suit",
+      "Utility coveralls",
+      "Battledress",
+      "Paramilitary uniform",
+      "Lab coat"
+    ]
+  }
 }
