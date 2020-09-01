@@ -108,5 +108,196 @@
     "Mark another two of the basic moves as advanced.",
     "Retire this hunter to safety.",
     "Get back one used Luck point."
-  ]
+  ],
+  "gear": {
+    "normal_weapon_slots": 1,
+    "normal_weapons": [
+      {
+        "name": ".38 revolver",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "9mm",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Hunting rifle",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Far",
+            "url": "/api/v1/weapon-tags/far"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Magnum",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Big knife",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          }
+        ]
+      }
+    ],
+    "hidden_weapon_slots": 2,
+    "hidden_weapons": [
+      {
+        "name": "Throwing knives",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Many",
+            "url": "/api/v1/weapon-tags/many"
+          }
+        ]
+      },
+      {
+        "name": "Holdout pistol",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          }
+        ]
+      },
+      {
+        "name": "Garrote",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "intimate",
+            "url": "/api/v1/weapon-tags/intimate"
+          }
+        ]
+      },
+      {
+        "name": "Watchman's flashlight",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          }
+        ]
+      },
+      {
+        "name": "Weighted gloves/brass knuckles",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          }
+        ]
+      },
+      {
+        "name": "Butterfly knife/folding knife",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          }
+        ]
+      }
+    ]
+  },
+  "look": {
+    "eyes": [
+      "Wild eyes",
+      "Moving eyes",
+      "Focused eyes",
+      "Searching eyes",
+      "Suspicious eyes",
+      "Wide eyes",
+      "Guarded eyes"
+    ],
+    "clothes": [
+      "Ratty clothes",
+      "Casual clothes",
+      "Rumpled suit",
+      "Neat clothes",
+      "Comfortable clothes",
+      "Army surplus gear"
+    ]
+  }
 }
