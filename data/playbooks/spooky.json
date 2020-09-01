@@ -109,5 +109,126 @@
     "Retire this hunter to safety.",
     "You discover how to use your powers at a lower price. Delete one dark side tag permanently.",
     "Get back one used Luck point."
-  ]
+  ],
+  "gear": {
+    "weapon_slots": 1,
+    "weapons": [
+      {
+        "name": ".38 revolver",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "9mm",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Hunting rifle",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Far",
+            "url": "/api/v1/weapon-tags/far"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "harm": 3,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Big knife",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          }
+        ]
+      }
+    ]
+  },
+  "dark_side": {
+    "dark_side_slots": 3,
+    "dark_side_tags": [
+      "Violence",
+      "Depression",
+      "Secrets",
+      "Lust",
+      "Dark bargain",
+      "Guilt",
+      "Soulless",
+      "Addiction",
+      "Mood swings",
+      "Rage",
+      "Self-destruction",
+      "Greed for power",
+      "Poor impulse control",
+      "Hallucinations",
+      "Pain",
+      "Paranoia"
+    ]
+  },
+  "look": {
+    "body": [
+      "Kid",
+      "Teen",
+      "Adult",
+      "Old"
+    ],
+    "eyes": [
+      "Burning eyes",
+      "Dark eyes",
+      "Pained eyes",
+      "Blank eyes",
+      "Unblinking eyes",
+      "Piercing eyes",
+      "Shadowed eyes",
+      "Creepy eyes"
+    ],
+    "clothes": [
+      "Ratty clothes",
+      "Casual clothes",
+      "Goth clothes",
+      "Neat clothes",
+      "Nerdy clothes"
+    ]
+  }
 }
