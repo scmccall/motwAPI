@@ -3,8 +3,13 @@
   "name": "The Spell-Slinger",
   "luck_special": "When you spend a point of Luck, the official council of wizards is going to poke their nose into your business.",
   "moves": {
-    "required_move_slots": 0,
-    "required_moves": [],
+    "required_move_slots": 1,
+    "required_moves": [
+      {
+        "name": "Tools and Techniques",
+        "description": "To use your combat magic effectively, you rely on a collection of tools and techniques. Cross off one; you’ll need the rest. Consumables: You need certain supplies— powders, oils, etc—on hand, some will be used up each cast. If you don’t have them, take 1-harm ignore-armour when you cast. Foci: You need wands, staves, and other obvious props to focus. If you don’t have what you need, your combat magic does 1 less harm. Gestures: You need to wave your hands around to use combat magic. If you’re restrained, take -1 ongoing for combat magic. Incantations: You must speak in an arcane language to control your magic. If you use combat magic without speaking, act under pressure to avoid scrambling your thoughts."
+      }
+    ],
     "optional_move_slots": 3,
     "optional_moves": [
       {
@@ -117,5 +122,192 @@
     "Erase one used Luck mark from your playbook.",
     "Take another Combat Magic pick.",
     "You may cross off another option from your Tools and Techniques."
-  ]
+  ],
+  "combat_magic": {
+    "bases": [
+      {
+        "name": "Blast",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Magic",
+            "url": "/api/v1/weapon-tags/magic"
+          },
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Obvious",
+            "url": "/api/v1/weapon-tags/obvious"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Ball",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Magic",
+            "url": "/api/v1/weapon-tags/magic"
+          },
+          {
+            "name": "Area",
+            "url": "/api/v1/weapon-tags/area"
+          },
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Obvious",
+            "url": "/api/v1/weapon-tags/obvious"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Missile",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Magic",
+            "url": "/api/v1/weapon-tags/magic"
+          },
+          {
+            "name": "Far",
+            "url": "/api/v1/weapon-tags/far"
+          },
+          {
+            "name": "Obvious",
+            "url": "/api/v1/weapon-tags/obvious"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Wall",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Magic",
+            "url": "/api/v1/weapon-tags/magic"
+          },
+          {
+            "name": "Barrier",
+            "url": "/api/v1/weapon-tags/barrier"
+          },
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Obvious",
+            "url": "/api/v1/weapon-tags/obvious"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      }
+    ],
+    "extras": [
+      {
+        "name": "Fire",
+        "description": "Add “+2 harm fire” to a base. If you get a 10+ on a combat magic roll, the fire won’t spread."
+      },
+      {
+        "name": "Force or Wind",
+        "description": "Add “+1 harm forceful” to a base, or “+1 armour” to a wall."
+      },
+      {
+        "name": "Lightning or Entropy",
+        "description": "Add “+1 harm messy” to a base."
+      },
+      {
+        "name": "Frost or Ice",
+        "description": "Adds “-1 harm +2 armour” to a wall, or “+1 harm restraining” to other bases."
+      },
+      {
+        "name": "Earth",
+        "description": "Add “forceful restraining” to a base."
+      },
+      {
+        "name": "Necromantic",
+        "description": "Add “life-drain” to a base."
+      }
+    ]
+  },
+  "gear": {
+    "weapon_slots": 1,
+    "weapons": [
+      {
+        "name": "Old revolver",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Close",
+            "url": "/api/v1/weapon-tags/close"
+          },
+          {
+            "name": "Reload",
+            "url": "/api/v1/weapon-tags/reload"
+          },
+          {
+            "name": "Loud",
+            "url": "/api/v1/weapon-tags/loud"
+          }
+        ]
+      },
+      {
+        "name": "Ritual knife",
+        "harm": 1,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          }
+        ]
+      },
+      {
+        "name": "Heirloom sword",
+        "harm": 2,
+        "tags": [
+          {
+            "name": "Hand",
+            "url": "/api/v1/weapon-tags/hand"
+          },
+          {
+            "name": "Messy",
+            "url": "/api/v1/weapon-tags/messy"
+          }
+        ]
+      }
+    ]
+  },
+  "look": {
+    "clothes": [
+      "Rumpled clothes",
+      "Stylish clothes",
+      "Goth clothes",
+      "Old fashioned clothes"
+    ],
+    "eyes": [
+      "Shadowed eyes",
+      "Fierce eyes",
+      "Weary eyes",
+      "Sparkling eyes"
+    ]
+  }
 }

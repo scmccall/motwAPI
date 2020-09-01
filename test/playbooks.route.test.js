@@ -902,6 +902,97 @@ describe("Playbooks route", () => {
           
         });
       });
+      it("Spell-Slinger playbook is correct", () => {
+        chai
+        .request(server)
+        .get("/api/v1/playbooks/spell-slinger")
+        .end((err, res) => {
+
+          // Combat magic
+          expect(res.body).to.have.property("combat_magic");
+          expect(res.body.combat_magic).to.be.an("object");
+          const combat_magic = res.body.combat_magic;
+          expect(combat_magic).to.have.property("bases");
+          expect(combat_magic.bases).to.be.an("array");
+          combat_magic.bases.forEach(base => {
+            expect(base).to.be.an("object");
+            expect(base).to.have.property("name");
+            expect(base.name).to.be.a("string");
+            expect(base).to.have.property("harm");
+            expect(base.harm).to.be.a("number");
+            expect(base).to.have.property("tags");
+            expect(base.tags).to.be.an("array");
+            base.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+              });
+            });
+          });
+          expect(combat_magic).to.have.property("extras");
+          expect(combat_magic.extras).to.be.an("array");
+          combat_magic.extras.forEach(extra => {
+            expect(extra).to.be.an("object");
+            expect(extra).to.have.property("name")
+            expect(extra.name).to.be.a("string");
+            expect(extra).to.have.property("description");
+            expect(extra.description).to.be.a("string");
+          });
+
+          // Gear
+          expect(res.body).to.have.property("gear");
+          expect(res.body.gear).to.be.an("object");
+          const gear = res.body.gear;
+          expect(gear).to.have.property("weapon_slots");
+          expect(gear.weapon_slots).to.be.a("number");
+          expect(gear).to.have.property("weapons");
+          expect(gear.weapons).to.be.an("array");
+          gear.weapons.forEach(weapon => {
+            expect(weapon).to.be.an("object");
+            expect(weapon).to.have.property("name");
+            expect(weapon.name).to.be.a("string");
+            expect(weapon).to.have.property("harm");
+            expect(weapon.harm).to.be.a("number");
+            expect(weapon).to.have.property("tags");
+            expect(weapon.tags).to.be.an("array");
+            weapon.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+              });
+            });
+          });
+
+          // Look
+          expect(res.body).to.have.property("look");
+          expect(res.body.look).to.be.an("object");
+          const look = res.body.look;
+          expect(look).to.have.property("eyes");
+          expect(look.eyes).to.be.an("array");
+          look.eyes.forEach(eyes => {
+            expect(eyes).to.be.a("string");
+          });
+          expect(look).to.have.property("clothes");
+          expect(look.clothes).to.be.an("array");
+          look.clothes.forEach(clothes => {
+            expect(clothes).to.be.a("string");
+          });
+        });
+      });
     });
   });
 });
