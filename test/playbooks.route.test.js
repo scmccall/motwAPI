@@ -1063,6 +1063,111 @@ describe("Playbooks route", () => {
           });
         });
       });
+      it("Wronged playbook is correct", () => {
+        chai
+        .request(server)
+        .get("/api/v1/playbooks/wronged")
+        .end((err, res) => {
+
+          // Gear
+          expect(res.body).to.have.property("gear");
+          expect(res.body.gear).to.be.an("object");
+          const gear = res.body.gear;
+          expect(gear).to.have.property("protective_armour");
+          expect(gear.protective_armour).to.be.an("object");
+          expect(gear.protective_armour).to.have.property("name");
+          expect(gear.protective_armour.name).to.be.a("string");
+          expect(gear.protective_armour).to.have.property("armour");
+          expect(gear.protective_armour.armour).to.be.a("number");
+          expect(gear).to.have.property("optional_vehicle");
+          expect(gear.optional_vehicle).to.be.an("array");
+          gear.optional_vehicle.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+          expect(gear).to.have.property("signature_weapon_slots");
+          expect(gear.signature_weapon_slots).to.be.a("number");
+          expect(gear).to.have.property("signature_weapons");
+          expect(gear.signature_weapons).to.be.an("array");
+          gear.signature_weapons.forEach(weapon => {
+            expect(weapon).to.be.an("object");
+            expect(weapon).to.have.property("name");
+            expect(weapon.name).to.be.a("string");
+            expect(weapon).to.have.property("harm");
+            expect(weapon.harm).to.be.a("number");
+            expect(weapon).to.have.property("tags");
+            expect(weapon.tags).to.be.an("array");
+            weapon.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+              });
+            });
+          });
+          expect(gear).to.have.property("practical_weapon_slots");
+          expect(gear.practical_weapon_slots).to.be.a("number");
+          expect(gear).to.have.property("practical_weapons");
+          expect(gear.practical_weapons).to.be.an("array");
+          gear.practical_weapons.forEach(weapon => {
+            expect(weapon).to.be.an("object");
+            expect(weapon).to.have.property("name");
+            expect(weapon.name).to.be.a("string");
+            expect(weapon).to.have.property("harm");
+            expect(weapon.harm).to.be.a("number");
+            expect(weapon).to.have.property("tags");
+            expect(weapon.tags).to.be.an("array");
+            weapon.tags.forEach(tag => {
+              expect(tag).to.be.an('object');
+              expect(tag).to.have.property("name");
+              expect(tag.name).to.be.a("string");
+              expect(tag).to.have.property("url");
+              expect(tag.url).to.be.a('string');
+              chai
+              .request(server)
+              .get(tag.url)
+              .end((err, res) => {
+                expect(res).to.have.status(200);
+              });
+            });
+          });
+
+          // Who You Lost
+          expect(res.body).to.have.property("who_you_lost");
+          expect(res.body.who_you_lost).to.be.an("object");
+          const who_you_lost = res.body.who_you_lost;
+          expect(who_you_lost).to.have.property("who");
+          expect(who_you_lost.who).to.be.an("array");
+          who_you_lost.who.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+          expect(who_you_lost).to.have.property("why");
+          expect(who_you_lost.why).to.be.an("array");
+          who_you_lost.why.forEach(option => {
+            expect(option).to.be.a("string");
+          });
+
+          // Look
+          expect(res.body).to.have.property("look");
+          expect(res.body.look).to.be.an("object");
+          const look = res.body.look;
+          expect(look).to.have.property("eyes");
+          expect(look.eyes).to.be.an("array");
+          look.eyes.forEach(eyes => {
+            expect(eyes).to.be.a("string");
+          });
+          expect(look).to.have.property("clothes");
+          expect(look.clothes).to.be.an("array");
+          look.clothes.forEach(clothes => {
+            expect(clothes).to.be.a("string");
+          });
+        });
+      });
     });
   });
 });
