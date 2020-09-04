@@ -18,9 +18,9 @@ describe("Playbooks route", () => {
 
       // Returns correct data structure
       expect(res.body).to.have.property("count");
-      expect(res.body).to.have.property("playbooks");
-      expect(res.body.count).to.equal(res.body.playbooks.length);
-      res.body.playbooks.forEach(element => {
+      expect(res.body).to.have.property("results");
+      expect(res.body.count).to.equal(res.body.results.length);
+      res.body.results.forEach(element => {
         expect(element).to.have.property("index");
         expect(element.index).to.be.a("string");
         expect(element).to.have.property("name");
@@ -33,7 +33,7 @@ describe("Playbooks route", () => {
   });
   describe("should list a SINGLE playbook on /playbooks/:index", () => {
     it("shared playbook data has correct data structure", () => {
-      const playbooks = require("../data/playbooks-list.json").playbooks;
+      const playbooks = require("../data/playbooks-list.json").results;
       playbooks.forEach(playbook => {
         chai
         .request(server)

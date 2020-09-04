@@ -18,9 +18,9 @@ describe("Weapon tags route", () => {
 
       // Returns correct data structure
       expect(res.body).to.have.property("count");
-      expect(res.body).to.have.property("tags");
-      expect(res.body.count).to.equal(res.body.tags.length);
-      res.body.tags.forEach(element => {
+      expect(res.body).to.have.property("results");
+      expect(res.body.count).to.equal(res.body.results.length);
+      res.body.results.forEach(element => {
         expect(element).to.have.property("index");
         expect(element.index).to.be.a("string");
         expect(element).to.have.property("name");
