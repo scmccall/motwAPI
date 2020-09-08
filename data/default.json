@@ -1,0 +1,4 @@
+{
+  "playbooks" : "https://motwapi.com/api/v1/playbooks",
+  "weapon-tags" : "https://motwapi.com/api/v1/weapon-tags"
+}
