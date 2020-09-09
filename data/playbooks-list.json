@@ -4,62 +4,62 @@
     {
       "index" : "chosen",
       "name": "The Chosen",
-      "url": "/chosen"
+      "url": "http://motwapi.com/api/v1/chosen"
     },
     {
       "index" : "crooked",
       "name": "The Crooked",
-      "url": "/crooked"
+      "url": "http://motwapi.com/api/v1/crooked"
     },
     {
       "index" : "divine",
       "name": "The Divine",
-      "url": "/divine"
+      "url": "http://motwapi.com/api/v1/divine"
     },
     {
       "index" : "expert",
       "name": "The Expert",
-      "url": "/expert"
+      "url": "http://motwapi.com/api/v1/expert"
     },
     {
       "index" : "flake",
       "name": "The Flake",
-      "url": "/flake"
+      "url": "http://motwapi.com/api/v1/flake"
     },
     {
       "index" : "initiate",
       "name": "The Initiate",
-      "url": "/initiate"
+      "url": "http://motwapi.com/api/v1/initiate"
     },
     {
       "index" : "monstrous",
       "name": "The Monstrous",
-      "url": "/monstrous"
+      "url": "http://motwapi.com/api/v1/monstrous"
     },
     {
       "index" : "mundane",
       "name": "The Mundane",
-      "url": "/mundane"
+      "url": "http://motwapi.com/api/v1/mundane"
     },
     {
       "index" : "professional",
       "name": "The Professional",
-      "url": "/professional"
+      "url": "http://motwapi.com/api/v1/professional"
     },
     {
       "index" : "spell-slinger",
       "name": "The Spell-Slinger",
-      "url": "/spell-slinger"
+      "url": "http://motwapi.com/api/v1/spell-slinger"
     },
     {
       "index" : "spooky",
       "name": "The Spooky",
-      "url": "/spooky"
+      "url": "http://motwapi.com/api/v1/spooky"
     },
     {
       "index" : "wronged",
       "name": "The Wronged",
-      "url": "/wronged"
+      "url": "http://motwapi.com/api/v1/wronged"
     }
   ]
 }

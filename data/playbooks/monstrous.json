@@ -155,7 +155,7 @@
         "tags": [
           {
             "name": "Intimate",
-            "url": "/api/v1/weapon-tags/intimate"
+            "url": "http://motwapi.com/api/v1/weapon-tags/intimate"
           }
         ]
       },
@@ -166,7 +166,7 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           }
         ]
       },
@@ -177,11 +177,11 @@
         "tags": [
           {
             "name": "Magical",
-            "url": "/api/v1/weapon-tags/magical"
+            "url": "http://motwapi.com/api/v1/weapon-tags/magical"
           },
           {
             "name": "Close",
-            "url": "/api/v1/weapon-tags/close"
+            "url": "http://motwapi.com/api/v1/weapon-tags/close"
           }
         ]
       },
@@ -192,11 +192,11 @@
         "tags": [
           {
             "name": "Intimate",
-            "url": "/api/v1/weapon-tags/intimate"
+            "url": "http://motwapi.com/api/v1/weapon-tags/intimate"
           },
           {
             "name": "Life-drain",
-            "url": "/api/v1/weapon-tags/life-drain"
+            "url": "http://motwapi.com/api/v1/weapon-tags/life-drain"
           }
         ]
       },
@@ -213,7 +213,7 @@
         "tags": [
           {
             "name": "Ignore-armour",
-            "url": "/api/v1/weapon-tags/ignore-armour"
+            "url": "http://motwapi.com/api/v1/weapon-tags/ignore-armour"
           }
         ]
       },
@@ -224,7 +224,7 @@
         "tags": [
           {
             "name": "Intimate",
-            "url": "/api/v1/weapon-tags/intimate"
+            "url": "http://motwapi.com/api/v1/weapon-tags/intimate"
           }
         ]
       },
@@ -235,7 +235,7 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           }
         ]
       },
@@ -246,7 +246,7 @@
         "tags": [
           {
             "name": "Close",
-            "url": "/api/v1/weapon-tags/close"
+            "url": "http://motwapi.com/api/v1/weapon-tags/close"
           }
         ]
       }
@@ -261,15 +261,15 @@
         "tags": [
           {
             "name": "Close",
-            "url": "/api/v1/weapon-tags/close"
+            "url": "http://motwapi.com/api/v1/weapon-tags/close"
           },
           {
             "name": "Reload",
-            "url": "/api/v1/weapon-tags/reload"
+            "url": "http://motwapi.com/api/v1/weapon-tags/reload"
           },
           {
             "name": "Loud",
-            "url": "/api/v1/weapon-tags/loud"
+            "url": "http://motwapi.com/api/v1/weapon-tags/loud"
           }
         ]
       },
@@ -279,11 +279,11 @@
         "tags": [
           {
             "name": "Close",
-            "url": "/api/v1/weapon-tags/close"
+            "url": "http://motwapi.com/api/v1/weapon-tags/close"
           },
           {
             "name": "Loud",
-            "url": "/api/v1/weapon-tags/loud"
+            "url": "http://motwapi.com/api/v1/weapon-tags/loud"
           }
         ]
       },
@@ -293,11 +293,11 @@
         "tags": [
           {
             "name": "Close",
-            "url": "/api/v1/weapon-tags/close"
+            "url": "http://motwapi.com/api/v1/weapon-tags/close"
           },
           {
             "name": "Reload",
-            "url": "/api/v1/weapon-tags/reload"
+            "url": "http://motwapi.com/api/v1/weapon-tags/reload"
           }
         ]
       },
@@ -307,15 +307,15 @@
         "tags": [
           {
             "name": "Close",
-            "url": "/api/v1/weapon-tags/close"
+            "url": "http://motwapi.com/api/v1/weapon-tags/close"
           },
           {
             "name": "Messy",
-            "url": "/api/v1/weapon-tags/messy"
+            "url": "http://motwapi.com/api/v1/weapon-tags/messy"
           },
           {
             "name": "Loud",
-            "url": "/api/v1/weapon-tags/loud"
+            "url": "http://motwapi.com/api/v1/weapon-tags/loud"
           }
         ]
       },
@@ -325,7 +325,7 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           }
         ]
       },
@@ -335,15 +335,15 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           },
           {
             "name": "Quiet",
-            "url": "/api/v1/weapon-tags/quiet"
+            "url": "http://motwapi.com/api/v1/weapon-tags/quiet"
           },
           {
             "name": "Small",
-            "url": "/api/v1/weapon-tags/small"
+            "url": "http://motwapi.com/api/v1/weapon-tags/small"
           }
         ]
       },
@@ -353,11 +353,11 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           },
           {
             "name": "Messy",
-            "url": "/api/v1/weapon-tags/messy"
+            "url": "http://motwapi.com/api/v1/weapon-tags/messy"
           }
         ]
       },
@@ -367,11 +367,11 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           },
           {
             "name": "Heavy",
-            "url": "/api/v1/weapon-tags/heavy"
+            "url": "http://motwapi.com/api/v1/weapon-tags/heavy"
           }
         ]
       }

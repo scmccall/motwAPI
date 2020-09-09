@@ -158,11 +158,11 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           },
           {
             "name": "Close",
-            "url": "/api/v1/weapon-tags/close"
+            "url": "http://motwapi.com/api/v1/weapon-tags/close"
           }
         ]
       },
@@ -172,11 +172,11 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           },
           {
             "name": "Heavy",
-            "url": "/api/v1/weapon-tags/heavy"
+            "url": "http://motwapi.com/api/v1/weapon-tags/heavy"
           }
         ]
       },
@@ -186,11 +186,11 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           },
           {
             "name": "Balanced",
-            "url": "/api/v1/weapon-tags/balanced"
+            "url": "http://motwapi.com/api/v1/weapon-tags/balanced"
           }
         ]
       },
@@ -200,11 +200,11 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           },
           {
             "name": "Area",
-            "url": "/api/v1/weapon-tags/area"
+            "url": "http://motwapi.com/api/v1/weapon-tags/area"
           }
         ]
       }
@@ -217,7 +217,7 @@
         "tags": [
           {
             "name": "Magic",
-            "url": "/api/v1/weapon-tags/magic"
+            "url": "http://motwapi.com/api/v1/weapon-tags/magic"
           }
         ]
       },
@@ -227,7 +227,7 @@
         "tags": [
           {
             "name": "Messy",
-            "url": "/api/v1/weapon-tags/messy"
+            "url": "http://motwapi.com/api/v1/weapon-tags/messy"
           }
         ]
       },
@@ -247,7 +247,7 @@
         "tags": [
           {
             "name": "Close",
-            "url": "/api/v1/weapon-tags/close"
+            "url": "http://motwapi.com/api/v1/weapon-tags/close"
           }
         ]
       },
@@ -257,7 +257,7 @@
         "tags": [
           {
             "name": "Close",
-            "url": "/api/v1/weapon-tags/close"
+            "url": "http://motwapi.com/api/v1/weapon-tags/close"
           }
         ]
       },
@@ -267,7 +267,7 @@
         "tags": [
           {
             "name": "Area",
-            "url": "/api/v1/weapon-tags/area"
+            "url": "http://motwapi.com/api/v1/weapon-tags/area"
           }
         ]
       }

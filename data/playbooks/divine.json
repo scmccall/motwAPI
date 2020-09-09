@@ -122,15 +122,15 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           },
           {
             "name": "Fire",
-            "url": "/api/v1/weapon-tags/fire"
+            "url": "http://motwapi.com/api/v1/weapon-tags/fire"
           },
           {
             "name": "Holy",
-            "url": "/api/v1/weapon-tags/holy"
+            "url": "http://motwapi.com/api/v1/weapon-tags/holy"
           }
         ]
       },
@@ -140,15 +140,15 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           },
           {
             "name": "Stun",
-            "url": "/api/v1/weapon-tags/stun"
+            "url": "http://motwapi.com/api/v1/weapon-tags/stun"
           },
           {
             "name": "Holy",
-            "url": "/api/v1/weapon-tags/holy"
+            "url": "http://motwapi.com/api/v1/weapon-tags/holy"
           }
         ]
       },
@@ -158,15 +158,15 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           },
           {
             "name": "Messy",
-            "url": "/api/v1/weapon-tags/messy"
+            "url": "http://motwapi.com/api/v1/weapon-tags/messy"
           },
           {
             "name": "Holy",
-            "url": "/api/v1/weapon-tags/holy"
+            "url": "http://motwapi.com/api/v1/weapon-tags/holy"
           }
         ]
       },
@@ -176,15 +176,15 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           },
           {
             "name": "Magic",
-            "url": "/api/v1/weapon-tags/magic"
+            "url": "http://motwapi.com/api/v1/weapon-tags/magic"
           },
           {
             "name": "Holy",
-            "url": "/api/v1/weapon-tags/holy"
+            "url": "http://motwapi.com/api/v1/weapon-tags/holy"
           }
         ]
       },
@@ -194,15 +194,15 @@
         "tags": [
           {
             "name": "Hand",
-            "url": "/api/v1/weapon-tags/hand"
+            "url": "http://motwapi.com/api/v1/weapon-tags/hand"
           },
           {
             "name": "Silver",
-            "url": "/api/v1/weapon-tags/silver"
+            "url": "http://motwapi.com/api/v1/weapon-tags/silver"
           },
           {
             "name": "Holy",
-            "url": "/api/v1/weapon-tags/holy"
+            "url": "http://motwapi.com/api/v1/weapon-tags/holy"
           }
         ]
       }

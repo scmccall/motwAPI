@@ -4,127 +4,127 @@
     {
       "index": "automatic",
       "name": "Automatic",
-      "url": "/automatic"
+      "url": "http://motwapi.com/api/v1/automatic"
     },
     {
       "index": "area",
       "name": "Area",
-      "url": "/area"
+      "url": "http://motwapi.com/api/v1/area"
     },
     {
       "index": "balanced",
       "name": "Balanced",
-      "url": "/balanced"
+      "url": "http://motwapi.com/api/v1/balanced"
     },
     {
       "index": "close",
       "name": "Close",
-      "url": "/close"
+      "url": "http://motwapi.com/api/v1/close"
     },
     {
       "index": "far",
       "name": "Far",
-      "url": "/far"
+      "url": "http://motwapi.com/api/v1/far"
     },
     {
       "index": "fire",
       "name": "Fire",
-      "url": "/fire"
+      "url": "http://motwapi.com/api/v1/fire"
     },
     {
       "index": "hand",
       "name": "Hand",
-      "url": "/hand"
+      "url": "http://motwapi.com/api/v1/hand"
     },
     {
       "index": "healing",
       "name": "Healing",
-      "url": "/healing"
+      "url": "http://motwapi.com/api/v1/healing"
     },
     {
       "index": "heavy",
       "name": "Heavy",
-      "url": "/heavy"
+      "url": "http://motwapi.com/api/v1/heavy"
     },
     {
       "index": "holy",
       "name": "Holy",
-      "url": "/holy"
+      "url": "http://motwapi.com/api/v1/holy"
     },
     {
       "index": "ignore-armour",
       "name": "Ignore-Armour",
-      "url": "/ignore-armour"
+      "url": "http://motwapi.com/api/v1/ignore-armour"
     },
     {
       "index": "innocuous",
       "name": "Innocuous",
-      "url": "/innocuous"
+      "url": "http://motwapi.com/api/v1/innocuous"
     },
     {
       "index": "intimate",
       "name": "Intimate",
-      "url": "/intimate"
+      "url": "http://motwapi.com/api/v1/intimate"
     },
     {
       "index": "loud",
       "name": "Loud",
-      "url": "/loud"
+      "url": "http://motwapi.com/api/v1/loud"
     },
     {
       "index": "magic",
       "name": "Magic",
-      "url": "/magic"
+      "url": "http://motwapi.com/api/v1/magic"
     },
     {
       "index": "many",
       "name": "Many",
-      "url": "/many"
+      "url": "http://motwapi.com/api/v1/many"
     },
     {
       "index": "messy",
       "name": "Messy",
-      "url": "/messy"
+      "url": "http://motwapi.com/api/v1/messy"
     },
     {
       "index": "quick",
       "name": "Quick",
-      "url": "/quick"
+      "url": "http://motwapi.com/api/v1/quick"
     },
     {
       "index": "reload",
       "name": "Reload",
-      "url": "/reload"
+      "url": "http://motwapi.com/api/v1/reload"
     },
     {
       "index": "slow",
       "name": "Slow",
-      "url": "/slow"
+      "url": "http://motwapi.com/api/v1/slow"
     },
     {
       "index": "small",
       "name": "Small",
-      "url": "/small"
+      "url": "http://motwapi.com/api/v1/small"
     },
     {
       "index": "unreliable",
       "name": "Unreliable",
-      "url": "/unreliable"
+      "url": "http://motwapi.com/api/v1/unreliable"
     },
     {
       "index": "useful",
       "name": "Useful",
-      "url": "/useful"
+      "url": "http://motwapi.com/api/v1/useful"
     },
     {
       "index": "valuable",
       "name": "Valuable",
-      "url": "/valuable"
+      "url": "http://motwapi.com/api/v1/valuable"
     },
     {
       "index": "volatile",
       "name": "Volatile",
-      "url": "/volatile"
+      "url": "http://motwapi.com/api/v1/volatile"
     }
   ]
 }
