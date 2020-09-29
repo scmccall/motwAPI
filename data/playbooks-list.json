@@ -4,62 +4,62 @@
     {
       "index" : "chosen",
       "name": "The Chosen",
-      "url": "http://motwapi.com/api/v1/chosen"
+      "url": "http://motwapi.com/api/v1/playbooks/chosen"
     },
     {
       "index" : "crooked",
       "name": "The Crooked",
-      "url": "http://motwapi.com/api/v1/crooked"
+      "url": "http://motwapi.com/api/v1/playbooks/crooked"
     },
     {
       "index" : "divine",
       "name": "The Divine",
-      "url": "http://motwapi.com/api/v1/divine"
+      "url": "http://motwapi.com/api/v1/playbooks/divine"
     },
     {
       "index" : "expert",
       "name": "The Expert",
-      "url": "http://motwapi.com/api/v1/expert"
+      "url": "http://motwapi.com/api/v1/playbooks/expert"
     },
     {
       "index" : "flake",
       "name": "The Flake",
-      "url": "http://motwapi.com/api/v1/flake"
+      "url": "http://motwapi.com/api/v1/playbooks/flake"
     },
     {
       "index" : "initiate",
       "name": "The Initiate",
-      "url": "http://motwapi.com/api/v1/initiate"
+      "url": "http://motwapi.com/api/v1/playbooks/initiate"
     },
     {
       "index" : "monstrous",
       "name": "The Monstrous",
-      "url": "http://motwapi.com/api/v1/monstrous"
+      "url": "http://motwapi.com/api/v1/playbooks/monstrous"
     },
     {
       "index" : "mundane",
       "name": "The Mundane",
-      "url": "http://motwapi.com/api/v1/mundane"
+      "url": "http://motwapi.com/api/v1/playbooks/mundane"
     },
     {
       "index" : "professional",
       "name": "The Professional",
-      "url": "http://motwapi.com/api/v1/professional"
+      "url": "http://motwapi.com/api/v1/playbooks/professional"
     },
     {
       "index" : "spell-slinger",
       "name": "The Spell-Slinger",
-      "url": "http://motwapi.com/api/v1/spell-slinger"
+      "url": "http://motwapi.com/api/v1/playbooks/spell-slinger"
     },
     {
       "index" : "spooky",
       "name": "The Spooky",
-      "url": "http://motwapi.com/api/v1/spooky"
+      "url": "http://motwapi.com/api/v1/playbooks/playbooks/spooky"
     },
     {
       "index" : "wronged",
       "name": "The Wronged",
-      "url": "http://motwapi.com/api/v1/wronged"
+      "url": "http://motwapi.com/api/v1/playbooks/wronged"
     }
   ]
 }
